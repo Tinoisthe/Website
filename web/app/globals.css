@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/* Neon Next Generation: the incumbent identity, refined.
+   Near-black violet ground, brand violet from the fox logo, green secondary. */
+@theme {
+  --color-bg: #050208;
+  --color-surface: #0d0a14;
+  --color-raised: #130f1d;
+  --color-raised-2: #1a1527;
+  --color-border: rgb(140 120 200 / 0.16);
+  --color-border-strong: rgb(155 93 229 / 0.38);
+
+  --color-fg: #f0f0fa;
+  --color-fg-2: #c9c3dc;
+  --color-muted: #9a93b0;
+
+  --color-violet: #9b5de5;
+  --color-violet-deep: #7b2ff2;
+  --color-violet-glow: #b47aff;
+  --color-green: #34d399;
+  --color-amber: #fbbf24;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root { color-scheme: dark; }
+
+html {
+  background: var(--color-bg);
+  scroll-behavior: smooth;
+  scrollbar-color: #2a2140 var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--color-violet); color: #fff; }
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: #2a2140; border: 3px solid var(--color-bg); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #3b2f5c; }
+
+:focus-visible { outline: 2px solid var(--color-violet-glow); outline-offset: 3px; border-radius: 6px; }
+a { text-underline-offset: 0.22em; }
+
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Headings: uppercase Inter, tight. The violet-to-green gradient is reserved for the one hero word. */
+.h-display {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  line-height: 1.04;
+  text-wrap: balance;
+}
+.brand-gradient {
+  background: linear-gradient(100deg, #c9a4ff 0%, var(--color-violet) 40%, var(--color-green) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Section atmospheres: each section owns a different glow wash so the
+   page reads as distinct places while staying one brand. */
+.wash-hero {
+  background:
+    radial-gradient(ellipse 70% 55% at 75% 30%, rgb(123 47 242 / 0.22), transparent 65%),
+    radial-gradient(ellipse 50% 40% at 10% 90%, rgb(155 93 229 / 0.12), transparent 60%),
+    linear-gradient(180deg, var(--color-bg), var(--color-surface));
+}
+.wash-pricing {
+  background:
+    radial-gradient(ellipse 60% 35% at 50% 0%, rgb(155 93 229 / 0.18), transparent 70%),
+    var(--color-bg);
+}
+.wash-infra {
+  background:
+    radial-gradient(ellipse 55% 45% at 12% 10%, rgb(155 93 229 / 0.2), transparent 65%),
+    radial-gradient(ellipse 45% 40% at 90% 20%, rgb(52 211 153 / 0.14), transparent 60%),
+    linear-gradient(180deg, var(--color-surface), var(--color-bg));
+}
+.wash-community {
+  background:
+    radial-gradient(ellipse 50% 60% at 85% 50%, rgb(52 211 153 / 0.12), transparent 60%),
+    radial-gradient(ellipse 50% 50% at 10% 80%, rgb(123 47 242 / 0.16), transparent 60%),
+    var(--color-bg);
+}
+.wash-contact {
+  background:
+    radial-gradient(ellipse 60% 50% at 20% 30%, rgb(123 47 242 / 0.2), transparent 65%),
+    linear-gradient(180deg, var(--color-surface), var(--color-bg));
+}
+.wash-page {
+  background:
+    radial-gradient(ellipse 60% 70% at 80% 0%, rgb(123 47 242 / 0.24), transparent 65%),
+    radial-gradient(ellipse 40% 50% at 0% 100%, rgb(52 211 153 / 0.08), transparent 60%),
+    var(--color-bg);
+}
+
+/* Faint grid that fades out from the centre, as on the original hero. */
+.hero-grid {
+  background-image:
+    linear-gradient(rgb(155 93 229 / 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(155 93 229 / 0.5) 1px, transparent 1px);
+  background-size: 72px 72px;
+  opacity: 0.06;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, black 20%, transparent 72%);
+}
+
+/* Hairline divider between sections: violet into green. */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgb(155 93 229 / 0.45), rgb(52 211 153 / 0.3), transparent);
+}
+
+/* Glass card, the core container of the incumbent world. */
+.card {
+  background: linear-gradient(180deg, rgb(26 21 39 / 0.72), rgb(13 10 20 / 0.6));
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.card-hover {
+  transition: transform 400ms var(--ease-out-expo), border-color 300ms ease, box-shadow 400ms var(--ease-out-expo);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-border-strong);
+  box-shadow: 0 24px 48px -24px rgb(123 47 242 / 0.45);
+}
+.card-featured {
+  border-color: rgb(155 93 229 / 0.6);
+  box-shadow: 0 0 0 1px rgb(155 93 229 / 0.25), 0 30px 70px -30px rgb(123 47 242 / 0.7);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  height: 3rem; padding: 0 1.5rem; border-radius: 999px;
+  font-weight: 600; font-size: 15px;
+  transition: transform 250ms var(--ease-out-expo), box-shadow 300ms ease, background-color 200ms ease, border-color 200ms ease;
+}
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-violet-deep), var(--color-violet));
+  box-shadow: 0 10px 30px -10px rgb(123 47 242 / 0.8);
+}
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 16px 40px -12px rgb(123 47 242 / 0.95); }
+.btn-ghost {
+  color: var(--color-fg);
+  background: rgb(155 93 229 / 0.08);
+  border: 1px solid rgb(155 93 229 / 0.32);
+}
+.btn-ghost:hover { background: rgb(155 93 229 / 0.16); border-color: var(--color-violet); }
+
+/* Motion */
+@keyframes marquee { to { transform: translateX(-50%); } }
+@keyframes caret { 50% { opacity: 0; } }
+@keyframes pulse-dot { 50% { opacity: 0.35; } }
+@keyframes fade-up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+.marquee { animation: marquee 45s linear infinite; }
+.marquee-reverse { animation: marquee 50s linear infinite reverse; }
+.marquee-mask { mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent); }
+.caret { animation: caret 1s steps(1) infinite; }
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+.swap { animation: fade-up 450ms var(--ease-out-expo); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee, .marquee-reverse, .caret, .pulse-dot, .swap { animation: none; }
+  .card-hover:hover, .btn-primary:hover { transform: none; }
+}
+
+/* Long-form prose (FAQ, legal). */
+.prose-nng { color: var(--color-fg-2); line-height: 1.75; }
+.prose-nng strong { color: var(--color-fg); font-weight: 600; }
+.prose-nng a { color: var(--color-violet-glow); text-decoration: underline; text-decoration-color: rgb(180 122 255 / 0.4); }
+.prose-nng a:hover { color: var(--color-fg); }
+
+/* Grid children may shrink below their min-content (terminal, tab strips). */
+@layer base {
+  .grid > * { min-width: 0; }
+}

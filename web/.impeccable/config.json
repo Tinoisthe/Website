@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "app/globals.css"
+        ],
+        "createdAt": "2026-10-24T14:04:06.865Z",
+        "reason": "Incumbent brand trait: live neonnextgeneration.com sets the second heading line in a violet-to-green gradient; user chose 'Original look, polished' over a new direction"
+      }
+    ]
+  }
+}

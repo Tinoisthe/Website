@@ -1,0 +1,988 @@
+{
+ "slug": "privacy",
+ "title": "Privacy Policy",
+ "volume": "Legal // Vol. 02",
+ "intro": "Neon Next Generation PTY LTD is committed to protecting your privacy and handling your personal data with transparency and care. This Policy applies to all users worldwide, regardless of location or jurisdiction.",
+ "preface": "By using our Services, you acknowledge that your personal data will be processed in accordance with this Privacy Policy, our <a href=\"/legal/terms\">Terms of Service</a>, and our <a href=\"/legal/fair-use\">Fair Use Policy</a>. Where your local law grants you rights beyond what is stated here, those rights are preserved. If you do not agree, please discontinue use of our Services immediately.",
+ "version": "2.3",
+ "effective": "September 22, 2026",
+ "sections": [
+  {
+   "id": "introduction",
+   "title": "Introduction, Who We Are & Contact Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation PTY LTD (\"we,\" \"our,\" \"us\") is the data controller and operator of this Site. We are committed to protecting your privacy and handling your personal data with transparency and care. This Privacy Policy (\"Policy\") describes how we collect, use, disclose, retain, and protect the personal information of all users worldwide who access our website at <a href=\"https://neonnextgeneration.com\">neonnextgeneration.com</a> and use our Services."
+    },
+    {
+     "type": "p",
+     "html": "This Policy applies globally to all users, regardless of your location, nationality, or jurisdiction. We have designed our practices to meet a high global standard of privacy protection. Where your local law grants you rights greater than those described here, those rights are preserved and are not waived by this Policy. This Policy forms part of our <a href=\"/legal/terms\">Terms of Service</a> and is cross-referenced with our <a href=\"/legal/fair-use\">Fair Use Policy</a>. By using our Services, you acknowledge that your personal data will be processed in accordance with this Policy. If you do not agree, please discontinue use of our Services immediately."
+    },
+    {
+     "type": "p",
+     "html": "We are a digital-first organisation and do not maintain physical walk-in locations or telephone support. You can reach our departments directly using the contact details below:"
+    },
+    {
+     "type": "h3",
+     "text": "Privacy & Data"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Privacy &amp; Data Rights</strong> <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Inquiries</strong> <a href=\"mailto:info@neonnextgeneration.com\">info@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Legal / Contracts</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "h3",
+     "text": "Other Departments"
+    },
+    {
+     "type": "p",
+     "html": "<strong>DMCA &amp; Copyright</strong> <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Billing &amp; Refunds</strong> <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Advertising</strong> <a href=\"mailto:ads@neonnextgeneration.com\">ads@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Neon Next Generation PTY LTD | ABN: 86 686 080 704</strong> <a href=\"https://neonnextgeneration.com\">neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "If you are unsatisfied with our response to a privacy concern, you have the right to lodge a complaint with the data protection or privacy authority in your country. Contact details for your local authority can typically be found on your government's official website."
+    },
+    {
+     "type": "p",
+     "html": "We aim to acknowledge all privacy-related requests within 5 business days and respond in full within 30 days."
+    }
+   ]
+  },
+  {
+   "id": "information-we-collect",
+   "title": "Information We Collect",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We collect only what is reasonably necessary to deliver and improve our Services."
+    },
+    {
+     "type": "h3",
+     "text": "3.1 Personal Information You Provide"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Full name",
+      "Email address and phone number",
+      "Billing and mailing address",
+      "Company name (if applicable)",
+      "Username and password (stored in hashed form — never plain text)",
+      "Profile information (avatar, bio, preferences)",
+      "Communications you send us (support tickets, contact forms, feedback, surveys)"
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3.2 Account & Usage Data (Automatic)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "IP address (used for approximate geolocation and security)",
+      "Browser type, version, and language settings",
+      "Operating system and device type",
+      "Login activity and session timestamps",
+      "Pages visited, features used, and navigation paths",
+      "Server usage and performance metrics",
+      "HTTP request metadata and referring URLs"
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3.3 Payment Information"
+    },
+    {
+     "type": "p",
+     "html": "Payment details are processed securely via our third-party payment processor. We do not store full payment card numbers or CVV codes on our systems. All payment data is tokenised and handled by our processor in accordance with PCI-DSS standards."
+    },
+    {
+     "type": "h3",
+     "text": "3.4 Sensitive Personal Information"
+    },
+    {
+     "type": "p",
+     "html": "We do NOT intentionally collect Sensitive Personal Information, including health or medical data, biometric data, racial or ethnic origin, political opinions, religious beliefs, sexual orientation, government-issued identifiers, or financial account credentials. If you voluntarily include such information in a message or form submission, we will process it only to the extent necessary to respond to your request and will not use it for any other purpose without your explicit consent."
+    },
+    {
+     "type": "h3",
+     "text": "3.5 Information from Third Parties"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Social media login data (if you authenticate via third-party providers)",
+      "Analytics data from our analytics provider(s)",
+      "Payment verification data from payment processors",
+      "Fraud prevention and security data"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "how-we-collect",
+   "title": "How We Collect Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We collect information through:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)<strong>Direct Interactions:</strong> Account registration, purchases, form submissions, support communications, and User Content submissions.",
+      "(b)<strong>Automated Technologies:</strong> Cookies, web beacons, pixel tags, and server logs — see Section 7.",
+      "(c)<strong>Third-Party Sources:</strong> Analytics providers, social networks, payment processors, and fraud prevention services.",
+      "(d)<strong>Publicly Available Sources:</strong> Where permitted by applicable law."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "legal-basis",
+   "title": "Legal Basis for Processing",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Where applicable law requires a legal basis for processing personal data, we rely on one or more of the following:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Consent",
+       "Marketing emails, non-essential cookies, sensitive data processing. You may withdraw at any time (see Section 9)."
+      ],
+      [
+       "Contract",
+       "Account creation, service delivery, subscription management, and purchase fulfilment."
+      ],
+      [
+       "Legitimate Interests",
+       "Fraud prevention, site security, abuse detection, infrastructure monitoring, and service improvement — balanced against your privacy rights."
+      ],
+      [
+       "Legal Obligation",
+       "Tax records, court orders, regulatory requirements, and lawful authority requests."
+      ],
+      [
+       "Vital Interests",
+       "Emergency safety situations where processing is necessary to protect life."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Where consent is the legal basis: consent is freely given, specific, informed, and unambiguous. Refusing or withdrawing consent will not result in any discrimination against you."
+    }
+   ]
+  },
+  {
+   "id": "how-we-use",
+   "title": "How We Use Your Data",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We use your data strictly for the following purposes:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Service Delivery",
+       "Account management, subscriptions, hosting, and VPN services."
+      ],
+      [
+       "Customer Support",
+       "Responding to inquiries and resolving issues."
+      ],
+      [
+       "Communications",
+       "Service updates, maintenance notices, and (with consent) marketing."
+      ],
+      [
+       "Security & Fraud",
+       "Detecting abuse, unauthorised access, DDoS attempts, and other threats."
+      ],
+      [
+       "Analytics & Improvement",
+       "Aggregate usage analysis, debugging, and performance optimisation."
+      ],
+      [
+       "Legal Compliance",
+       "Responding to regulatory, tax, and law enforcement obligations."
+      ],
+      [
+       "Policy Enforcement",
+       "Enforcing our Terms of Service and Fair Use Policy."
+      ],
+      [
+       "Payments",
+       "Processing transactions, invoices, and refunds."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We do not use your data for fully automated decision-making that produces legal or significant effects on you without human review. See Section 23."
+    }
+   ]
+  },
+  {
+   "id": "sharing-disclosure",
+   "title": "Sharing & Disclosure",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "✓ We do NOT sell your personal data. We do not share your data for third-party advertising purposes."
+    },
+    {
+     "type": "p",
+     "html": "We may share your data only with the following categories of recipients:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)<strong>Service Providers:</strong> Cloud infrastructure, payment processors, email delivery, analytics, and security monitoring services — all bound by written data processing agreements.",
+      "(b)<strong>Legal Requirements:</strong> Court orders, subpoenas, government or regulatory authority requests, or where necessary to protect our legal rights. Where permitted, we will notify you of such requests.",
+      "(c)<strong>Business Transfers:</strong> In the event of a merger, acquisition, or asset sale, you will be notified at least 30 days before your data is transferred to a new controller.",
+      "(d)<strong>With Your Consent:</strong> For any purpose not described above, only with your prior explicit consent.",
+      "(e)<strong>Anonymised / Aggregated Data:</strong> Data that has been irreversibly anonymised and cannot be used to identify you."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We do not share your data with data brokers or advertising networks. All service providers are contractually prohibited from using your data for their own independent purposes."
+    }
+   ]
+  },
+  {
+   "id": "cookies-tracking",
+   "title": "Cookies & Tracking Technologies",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We use cookies and similar technologies to operate and improve our Services. We use the following tracking technologies:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Browser cookies (first-party and third-party)",
+      "Web beacons and pixel tags",
+      "Server-side logging"
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cookie Categories"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Type",
+       "Consent",
+       "Purpose"
+      ],
+      [
+       "Strictly Necessary",
+       "No",
+       "Core functionality: login, security, load balancing. Cannot be disabled."
+      ],
+      [
+       "Analytics / Performance",
+       "Yes",
+       "Usage statistics and site improvement."
+      ],
+      [
+       "Functional",
+       "Yes",
+       "Saved preferences, language, and region settings."
+      ],
+      [
+       "Marketing / Targeting",
+       "Yes",
+       "Interest-based content (only if applicable and with consent)."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Consent & Your Choices"
+    },
+    {
+     "type": "p",
+     "html": "On your first visit, a cookie consent banner allows you to accept or decline non-essential cookies by category. Your consent is recorded with a timestamp. You may update or withdraw cookie consent at any time via the cookie settings link in the Site footer, or by adjusting your browser settings. Withdrawing consent does not affect lawfulness of prior processing. Disabling essential cookies may impair Site functionality."
+    },
+    {
+     "type": "h3",
+     "text": "Analytics Provider"
+    },
+    {
+     "type": "p",
+     "html": "We use analytics tooling to analyse Site traffic under a data processing agreement. IP anonymisation is applied where required by law. You may opt out of analytics tracking via the cookie consent manager or your browser settings."
+    },
+    {
+     "type": "h3",
+     "text": "Do Not Track & Global Privacy Control"
+    },
+    {
+     "type": "p",
+     "html": "There is currently no universally accepted standard for Do Not Track (DNT) signals. We honour Global Privacy Control (GPC) signals as an opt-out of non-essential data sharing where required by applicable law. We will update this section if a uniform DNT standard is established."
+    }
+   ]
+  },
+  {
+   "id": "your-rights",
+   "title": "Your Global Privacy Rights",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Regardless of where you are located, you have the following rights with respect to your personal data:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Access",
+       "Request a copy of the personal data we hold about you."
+      ],
+      [
+       "Correction",
+       "Request correction of inaccurate or incomplete data."
+      ],
+      [
+       "Deletion / Erasure",
+       "Request deletion of your data, subject to legal retention obligations."
+      ],
+      [
+       "Restriction",
+       "Request that we limit how we use your data while a dispute is resolved."
+      ],
+      [
+       "Portability",
+       "Receive your data in a structured, commonly used, machine-readable format."
+      ],
+      [
+       "Objection",
+       "Object to processing based on legitimate interests, including direct marketing."
+      ],
+      [
+       "Withdraw Consent",
+       "Where processing is consent-based, withdraw at any time without penalty."
+      ],
+      [
+       "Opt-Out of Marketing",
+       "Unsubscribe from promotional communications at any time."
+      ],
+      [
+       "Non-Discrimination",
+       "You will not be penalised for exercising any privacy right."
+      ],
+      [
+       "Complaint",
+       "Lodge a complaint with the data protection authority in your country."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "How to Submit a Request"
+    },
+    {
+     "type": "p",
+     "html": "Email: <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a><br/> Subject: \"Privacy Rights Request — [Your Name]\"<br/> Include: Your name, account email, the right you wish to exercise, and your country/region."
+    },
+    {
+     "type": "p",
+     "html": "We will acknowledge your request within 5 business days and respond in full within 30 days. Where your local law requires a shorter timeframe, we will comply. For complex requests, we may extend by a further 30 days with prior notice. We may verify your identity before processing. We will not charge a fee unless your request is manifestly unfounded or excessive, and only where permitted by law."
+    },
+    {
+     "type": "p",
+     "html": "You may designate an authorised agent to submit requests on your behalf with written authorisation. We may verify the agent's identity independently."
+    }
+   ]
+  },
+  {
+   "id": "data-retention",
+   "title": "Data Retention",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We retain personal data only for as long as necessary to fulfil the purposes described in this Policy, or as required by applicable law:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Account data",
+       "Duration of account + 2 years post-closure"
+      ],
+      [
+       "Transaction / billing",
+       "7 years (tax and legal compliance)"
+      ],
+      [
+       "Server / access logs",
+       "90 days"
+      ],
+      [
+       "Marketing consent records",
+       "Duration of consent + 3 years"
+      ],
+      [
+       "Support communications",
+       "3 years from resolution"
+      ],
+      [
+       "Analytics data",
+       "13 months"
+      ],
+      [
+       "Legal hold data",
+       "Duration of proceedings + 1 year"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "After the applicable period, data is securely deleted or irreversibly anonymised. Deletion requests submitted under Section 9 may be subject to overriding legal retention obligations. We conduct periodic data audits to ensure compliance with these schedules."
+    }
+   ]
+  },
+  {
+   "id": "data-security",
+   "title": "Data Security",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Technical Measures"
+    },
+    {
+     "type": "list",
+     "items": [
+      "TLS 1.2+ encryption for all data in transit (HTTPS)",
+      "AES-256 encryption for sensitive data at rest",
+      "Bcrypt (or equivalent) password hashing — passwords are never stored in plain text",
+      "Role-based access controls (RBAC)",
+      "Multi-factor authentication (MFA) for administrative access",
+      "Firewalls and intrusion detection systems",
+      "Regular vulnerability scanning and annual penetration testing",
+      "Encrypted backups with tested recovery procedures"
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Organisational Measures"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Privacy and security training for all staff with data access",
+      "Data minimisation — we collect only what is necessary",
+      "Access limited strictly to staff who require it",
+      "Written security policies and documented incident response plan",
+      "Vendor due diligence and contractual security requirements for all processors"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Despite these measures, no system is completely secure. We cannot guarantee absolute security, but we will act promptly to contain and communicate any incident that affects your data. See Section 17 for breach notification details."
+    }
+   ]
+  },
+  {
+   "id": "international-transfers",
+   "title": "International Data Transfers",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Our primary servers are located in Australia. Your data may be transferred to, stored in, or processed in countries other than where you reside, including the United States and other jurisdictions where our service providers operate. Data protection laws in those countries may differ from your own."
+    },
+    {
+     "type": "p",
+     "html": "Where your data is transferred internationally, we ensure appropriate safeguards are in place as required by applicable law. These safeguards may include:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Standard Contractual Clauses (SCCs) or equivalent clauses approved by the relevant authority in your jurisdiction.",
+      "(b)Adequacy decisions or findings made by the relevant supervisory authority.",
+      "(c)Binding corporate rules or equivalent protections.",
+      "(d)Your explicit consent where no other mechanism applies."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "You may request information about the specific safeguards we have in place for transfers from your jurisdiction by contacting <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>."
+    }
+   ]
+  },
+  {
+   "id": "children-privacy",
+   "title": "Children's Privacy",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Our Services are not directed at children below the minimum age of digital consent in their jurisdiction. Where no specific age is prescribed locally, our Services are not directed to children under 16. We do not knowingly collect personal data from children below the applicable minimum age without verifiable parental or guardian consent."
+    },
+    {
+     "type": "p",
+     "html": "If you believe we have inadvertently collected data from a minor, contact us immediately at <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>. We will delete the data promptly. Parents or guardians may contact us to request access to, correction of, or deletion of a minor's data using the process described in Section 9. See also <a href=\"/legal/terms#eligibility\">Terms of Service, Section 3</a>."
+    }
+   ]
+  },
+  {
+   "id": "marketing",
+   "title": "Marketing Communications",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We send marketing communications only where you have explicitly opted in, or where permitted by applicable law on a soft opt-in basis following a purchase and you have not opted out. Every marketing email includes clear identification of Neon Next Generation PTY LTD as the sender, a one-click unsubscribe link, and our ABN."
+    },
+    {
+     "type": "h3",
+     "text": "To Opt Out"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Click \"Unsubscribe\" in any marketing email; OR",
+      "Email <a href=\"mailto:info@neonnextgeneration.com\">info@neonnextgeneration.com</a> with subject \"Unsubscribe\"; OR",
+      "Update your account preferences (if available)."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Opt-out requests will be honoured within the timeframe required by applicable law in your jurisdiction, and no later than 10 business days. Opting out of marketing does not affect transactional or service-related communications."
+    }
+   ]
+  },
+  {
+   "id": "vpn-hosting-practices",
+   "title": "VPN & Hosting Data Practices",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "VPN Services: No-Activity-Logging Policy"
+    },
+    {
+     "type": "p",
+     "html": "We operate a strict no-activity-logging policy for our VPN services. We do not log:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Browsing activity or visited websites",
+      "Traffic content or payload data",
+      "DNS queries or connection destinations",
+      "Originating IP addresses assigned to VPN sessions",
+      "Connection timestamps tied to individual users"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We may collect minimal operational data (such as aggregate server load and uptime statistics) solely for performance and reliability purposes. This data is never linked to individual users. In the event of a valid legal order requiring disclosure, our no-logging policy means we have no activity data to disclose even if compelled by a court or authority."
+    },
+    {
+     "type": "h3",
+     "text": "Hosting & Network Monitoring"
+    },
+    {
+     "type": "p",
+     "html": "We monitor our hosting infrastructure solely to:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Maintain service integrity and uptime",
+      "Detect fraud, abuse, or security threats",
+      "Enforce our Terms of Service and Fair Use Policy",
+      "Comply with lawful obligations"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "All monitoring is limited, proportionate, and subject to strict internal access controls."
+    }
+   ]
+  },
+  {
+   "id": "third-party-processors",
+   "title": "Third-Party Data Processors",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We work with the following categories of third-party processors who may handle your personal data on our behalf. All processors are bound by written data processing agreements that require them to handle your data securely, use it only for specified purposes, and comply with applicable privacy law."
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Payment Processing",
+       "Stripe — secure handling of subscription payments and refunds."
+      ],
+      [
+       "Cloud Infrastructure",
+       "Server and storage providers used to host our platforms."
+      ],
+      [
+       "Email Delivery",
+       "Transactional and notification email services."
+      ],
+      [
+       "Analytics",
+       "Aggregated, anonymised usage analytics to improve performance."
+      ],
+      [
+       "Security Monitoring",
+       "Infrastructure and threat detection services."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We do not share your data with processors beyond what is necessary. If you have questions about a specific processor, contact <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>."
+    }
+   ]
+  },
+  {
+   "id": "data-breach",
+   "title": "Data Breach Notification",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "In the event of a personal data breach that poses a risk to your rights or interests, we will:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Take immediate steps to contain and mitigate the impact.",
+      "Notify affected users and relevant regulatory authorities within the timeframe required by applicable law in your jurisdiction (generally within 72 hours for EU/UK users).",
+      "Provide clear information about what happened, what data was affected, what we are doing about it, and what steps you can take to protect yourself."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We maintain an internal incident response plan and conduct regular reviews to ensure our breach response procedures remain effective."
+    }
+   ]
+  },
+  {
+   "id": "social-login",
+   "title": "Social Login & Third-Party Authentication",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We may offer the option to register or log in using third-party authentication providers (such as Google or Discord). If you choose to use social login:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "We receive a limited set of profile data from the provider (typically your name, email address, and profile picture) based on the permissions you grant at login.",
+      "We do not receive or store your password for the third-party service.",
+      "Information received is used solely to create or authenticate your account with us.",
+      "Your use of the third-party authentication service is governed by that provider's own terms and privacy policy."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "You may disconnect a social login at any time via your account settings. Disconnecting does not delete your account, but you will need to set a password to continue accessing it. We are not responsible for the data practices of third-party authentication providers."
+    }
+   ]
+  },
+  {
+   "id": "do-not-sell",
+   "title": "Do Not Sell or Share My Personal Data",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "✓ We do not sell your personal data. We do not share your data for cross-context behavioural advertising."
+    },
+    {
+     "type": "p",
+     "html": "If you are a resident of a jurisdiction with specific opt-out rights (such as California under CCPA/CPRA, or similar laws elsewhere), you have the right to:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Opt out of the sale or sharing of your personal data (even though we do not engage in these practices).",
+      "Request disclosure of the categories of personal data collected, purposes for use, and any third parties it has been shared with.",
+      "Request deletion of your personal data, subject to legal exceptions.",
+      "Not be discriminated against for exercising any of these rights."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "To exercise any of these rights, contact <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a> with the subject \"Do Not Sell Request\" or \"Privacy Rights Request.\" We will respond within 30 days and will not charge a fee for reasonable requests."
+    }
+   ]
+  },
+  {
+   "id": "data-portability",
+   "title": "Data Portability",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "You have the right to receive a copy of the personal data we hold about you in a structured, commonly used, and machine-readable format, and to transmit that data to another service provider where technically feasible."
+    },
+    {
+     "type": "h3",
+     "text": "What You Can Request"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Account profile data (name, email, contact details)",
+      "Billing history and transaction records",
+      "Support ticket history",
+      "Any other personal data you have provided to us directly"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Operational data such as server logs, anonymised analytics, and system-generated metadata may not be included as this data is not attributable solely to you."
+    },
+    {
+     "type": "h3",
+     "text": "How to Request"
+    },
+    {
+     "type": "p",
+     "html": "Email <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a> with subject \"Data Portability Request.\" Include your full name and account email. We will provide your data export within 30 days in a standard format (JSON or CSV, depending on the data type). There is no charge for a data portability request unless it is manifestly excessive or repetitive."
+    }
+   ]
+  },
+  {
+   "id": "profiling-tracking",
+   "title": "Profiling & Tracking",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "What We Do"
+    },
+    {
+     "type": "p",
+     "html": "We may use certain usage data at an aggregate or anonymised level to:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Analyse feature usage patterns to prioritise product improvements.",
+      "Monitor performance and reliability metrics by service tier.",
+      "Identify and resolve issues affecting groups of users."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What We Do Not Do"
+    },
+    {
+     "type": "list",
+     "items": [
+      "We do not track your activity across third-party websites or services.",
+      "We do not build individual profiles for advertising or marketing segmentation.",
+      "We do not use behavioural data to make automated decisions with legal or significant effects on you without human review.",
+      "We do not use tracking pixels or third-party advertising tags without your explicit consent."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "If you object to any form of usage analytics, contact <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a> to discuss available opt-out options."
+    }
+   ]
+  },
+  {
+   "id": "ai-machine-learning",
+   "title": "Artificial Intelligence & Machine Learning",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Current Use"
+    },
+    {
+     "type": "p",
+     "html": "We may use automated tools and ML-based systems to:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Detect abuse, spam, fraud, or security threats on our platform.",
+      "Monitor infrastructure performance and predict capacity needs.",
+      "Filter or flag content that may violate our Acceptable Use Policy."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "These uses are operational in nature and are not used to make decisions about you personally. Any flagged activity is reviewed by a human before any action is taken against an account."
+    },
+    {
+     "type": "h3",
+     "text": "What We Do Not Do"
+    },
+    {
+     "type": "list",
+     "items": [
+      "We do not use your personal data to train external AI or ML models.",
+      "We do not sell or license your data to AI companies or data brokers.",
+      "We do not make fully automated decisions with legal or significant effects on you without human review."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Future Changes"
+    },
+    {
+     "type": "p",
+     "html": "If we introduce new AI-powered features that involve processing your personal data in a materially different way, we will update this Policy and notify you in accordance with Section 25 before those features are deployed."
+    }
+   ]
+  },
+  {
+   "id": "automated-decisions",
+   "title": "Automated Decision-Making",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We do NOT make solely automated decisions that produce legal or similarly significant effects on you, unless:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)It is necessary for entering into or performing a contract with you.",
+      "(b)It is authorised by applicable law with appropriate safeguards.",
+      "(c)You have given explicit consent."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Where automated processing is used (e.g., fraud detection or spam filtering), any flagged outcome is reviewed by a human before action is taken. You have the right to request human review of any automated assessment, contest the outcome, and receive a meaningful explanation of the logic involved. To exercise these rights, contact <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a> with the subject \"Automated Decision Review Request.\""
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "\"Anonymised Data\" — Data that has been irreversibly processed so that no individual can be identified from it."
+    },
+    {
+     "type": "p",
+     "html": "\"Controller / Business\" — The entity that determines the purposes and means of processing personal data — that is Neon Next Generation PTY LTD."
+    },
+    {
+     "type": "p",
+     "html": "\"Data Subject / Consumer / User\" — The identified or identifiable natural person whose personal data is processed — that is you."
+    },
+    {
+     "type": "p",
+     "html": "\"Personal Data / Personal Information\" — Any information relating to an identified or identifiable natural person."
+    },
+    {
+     "type": "p",
+     "html": "\"Processing\" — Any operation performed on personal data, including collection, storage, use, disclosure, or deletion."
+    },
+    {
+     "type": "p",
+     "html": "\"Processor / Service Provider\" — A party that processes personal data on behalf of the Controller under a written agreement."
+    },
+    {
+     "type": "p",
+     "html": "\"Pseudonymised Data\" — Data that cannot be attributed to a specific individual without additional separately held information."
+    },
+    {
+     "type": "p",
+     "html": "\"Sensitive Personal Information\" — Includes: racial or ethnic origin; political opinions; religious or philosophical beliefs; trade union membership; genetic or biometric data; health or medical data; sexual orientation or gender identity; precise geolocation; government-issued identifiers; financial account credentials; immigration status."
+    },
+    {
+     "type": "p",
+     "html": "\"Third Party\" — Any entity other than you, Neon Next Generation PTY LTD, or our service providers acting on our instructions."
+    }
+   ]
+  },
+  {
+   "id": "changes-to-policy",
+   "title": "Changes to This Policy",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We may update this Privacy Policy from time to time. When we do:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Minor clarifications will be posted with an updated version number and effective date — no further notice required.",
+      "Material changes will be communicated via email or prominent in-service notice at least 30 days before taking effect.",
+      "Where a material change adversely affects your rights and local law requires it, you may request data deletion before the change takes effect without penalty.",
+      "Continued use after the effective date constitutes acceptance. If you disagree, discontinue use and request data deletion per Section 9."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Version History"
+    },
+    {
+     "type": "list",
+     "items": [
+      "v2.3 · September 22, 2026 Updated 01-02 removed section 26",
+      "v2.1 · April 12, 2026 — Added social login, do not sell, data portability, profiling, and AI/ML sections. Expanded rights request process, refined cookie withdrawal, updated retention schedule.",
+      "v2.0 · April 12, 2026 — Revised to global scope. Added cookie consent detail, expanded rights and VPN logging policy.",
+      "v1.0 · January 13, 2026 — Initial Privacy Policy."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "complaints",
+   "title": "Complaints",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If you believe we have not handled your personal data in accordance with this Policy, we encourage you to contact us first at <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a> so we can work to resolve the matter directly. We take all privacy complaints seriously and will respond within 30 days."
+    },
+    {
+     "type": "p",
+     "html": "If you are not satisfied with our response, you have the right to escalate your complaint to the data protection or privacy regulatory authority in your jurisdiction. We will cooperate fully with any such investigation and will not penalise you for making a complaint in good faith."
+    },
+    {
+     "type": "h3",
+     "text": "Examples of Regulatory Authorities"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>AU:</strong> Office of the Australian Information Commissioner (OAIC) — oaic.gov.au",
+      "<strong>EU:</strong> Your national Data Protection Authority — edpb.europa.eu/members",
+      "<strong>UK:</strong> Information Commissioner's Office (ICO) — ico.org.uk",
+      "<strong>CA:</strong> Office of the Privacy Commissioner of Canada — priv.gc.ca",
+      "<strong>US:</strong> Your state Attorney General's Office or the FTC — ftc.gov",
+      "<strong>All:</strong> Contact your local government's official website for jurisdiction-specific authority details."
+     ]
+    }
+   ]
+  }
+ ]
+}

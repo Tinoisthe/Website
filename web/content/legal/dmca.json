@@ -1,0 +1,540 @@
+{
+ "slug": "dmca",
+ "title": "DMCA & Copyright Policy",
+ "volume": "Legal // Vol. 04",
+ "intro": "Neon Next Generation PTY LTD respects intellectual property rights globally and complies with the Digital Millennium Copyright Act (U.S.) and equivalent international copyright frameworks. This Policy applies to all users worldwide regardless of location or jurisdiction.",
+ "preface": "This DMCA &amp; Copyright Policy forms part of our <a href=\"/legal/terms\">Terms of Service</a>, <a href=\"/legal/privacy\">Privacy Policy</a>, and <a href=\"/legal/fair-use\">Fair Use Policy</a>, all incorporated by reference. By using our Services, you agree to comply with this Policy. Neon Next Generation acts as a neutral infrastructure provider and processes all valid copyright notices promptly and in good faith.",
+ "version": "1.2",
+ "effective": "July 18, 2026",
+ "sections": [
+  {
+   "id": "scope-global",
+   "title": "Scope & Global Application",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This DMCA &amp; Copyright Policy (\"Policy\") applies to all content hosted on or transmitted through Neon Next Generation PTY LTD's infrastructure, including VPS, Web Hosting, Proxy, and VPN services. It applies globally to all customers, users, and third parties regardless of location, nationality, or jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "While this Policy is framed primarily around the U.S. Digital Millennium Copyright Act (17 U.S.C. § 512), we respect and comply with equivalent copyright protection frameworks globally, including:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Australia:</strong> Copyright Act 1968 (Cth) and the Online Safety Act 2021.",
+      "<strong>European Union:</strong> EU Copyright Directive (2019/790) and Digital Services Act (DSA).",
+      "<strong>United Kingdom:</strong> Copyright, Designs and Patents Act 1988 and Online Safety Act 2023.",
+      "<strong>International:</strong> Berne Convention for the Protection of Literary and Artistic Works and WIPO Copyright Treaty.",
+      "<strong>All other jurisdictions:</strong> Applicable national copyright laws where you are located."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Where your local mandatory law provides rights that exceed what is stated in this Policy, those rights are preserved. Nothing in this Policy limits any rights you have under the mandatory laws of your jurisdiction."
+    }
+   ]
+  },
+  {
+   "id": "designated-agent",
+   "title": "Designated Copyright Agent",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "All notifications of claimed copyright infringement and all counter-notifications should be directed to our Designated Copyright Agent. We process all valid notices promptly. For the fastest processing, use the primary email address below."
+    },
+    {
+     "type": "h3",
+     "text": "DMCA Designated Agent"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Company</strong> Neon Next Generation PTY LTD"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Primary — DMCA Notices</strong> <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Legal Contact</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>ABN</strong> 86 686 080 704"
+    },
+    {
+     "type": "p",
+     "html": "Digital signatures are accepted. Physical signatures are not required for electronic submissions."
+    },
+    {
+     "type": "p",
+     "html": "Neon Next Generation does not maintain physical walk-in locations. All copyright notices must be submitted electronically via the email addresses above. We do not accept copyright notices by telephone."
+    }
+   ]
+  },
+  {
+   "id": "takedown-notice",
+   "title": "Filing a Takedown Notice",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If you are a copyright owner or an authorised agent and believe that content hosted on Neon infrastructure infringes your copyright, you may submit a written takedown notification. To be valid and actionable, your notice must contain ALL of the following elements (per 17 U.S.C. § 512(c)(3) and equivalent international requirements):"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "01 Identification of Work",
+       "Identify the copyrighted work claimed to have been infringed. Provide a link to the original work, registration number, or a sufficiently detailed description. If multiple works are covered by a single notice, provide a representative list."
+      ],
+      [
+       "02 Location of Infringing Material",
+       "Identify the specific material you believe to be infringing and provide information reasonably sufficient to allow us to locate it — this must include the specific URL(s), IP address(es), or other precise locating information. General descriptions are insufficient."
+      ],
+      [
+       "03 Your Contact Information",
+       "Provide your full legal name, mailing address, telephone number, and email address. If you are acting as an agent, identify the copyright owner on whose behalf you are acting."
+      ],
+      [
+       "04 Good Faith Statement",
+       "\"I have a good faith belief that use of the material in the manner complained of is not authorised by the copyright owner, its agent, or the law.\""
+      ],
+      [
+       "05 Accuracy Statement",
+       "\"The information in this notification is accurate, and under penalty of perjury, I am the owner, or am authorised to act on behalf of the owner, of an exclusive right that is allegedly infringed.\""
+      ],
+      [
+       "06 Signature",
+       "Your physical or electronic signature. For electronic notices, typing your full name in the signature field constitutes an electronic signature."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>⚠ Incomplete Notices</strong> Failure to include all required elements may result in a delay or rejection of your notice. We cannot act on notices that do not meet the statutory requirements. Incomplete notices will be returned with guidance on what is missing."
+    },
+    {
+     "type": "p",
+     "html": "Send completed takedown notices to: <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a> with the subject line \"DMCA Takedown Notice — [Your Name / Organisation].\""
+    }
+   ]
+  },
+  {
+   "id": "takedown-procedure",
+   "title": "Takedown Procedure & Timeline",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Upon receipt of a valid and complete DMCA takedown notice, Neon will follow this procedure:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Within 24 hours Acknowledge Receipt",
+       "We will send an automated acknowledgement confirming receipt of your notice."
+      ],
+      [
+       "Within 48 hours Review Notice",
+       "Our team reviews the notice for completeness and validity. Incomplete notices are returned with guidance."
+      ],
+      [
+       "Within 2–3 days Action on Valid Notice",
+       "Expeditiously remove or disable access to the allegedly infringing material and notify the responsible customer with a copy of the notice."
+      ],
+      [
+       "Ongoing Record Keeping",
+       "Maintain a record of the notice, action taken, and all correspondence for our compliance files."
+      ],
+      [
+       "Within 24 hours Notify Complainant",
+       "Confirm to you that the material has been removed or disabled, or explain why we were unable to act."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Takedown Actions"
+    },
+    {
+     "type": "note",
+     "title": "Remove Content",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Expeditiously remove or disable access to the allegedly infringing material from our infrastructure."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Notify Customer",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Notify the responsible customer with a copy of the takedown notice and information about the counter-notification process."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Compliance Record",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Maintain a complete compliance record of the notice, actions taken, and all associated correspondence."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "counter-notification",
+   "title": "Counter-Notification Process",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If your content was removed and you believe the removal was a mistake or misidentification, you have the right to submit a Counter-Notification under 17 U.S.C. § 512(g) or the equivalent provision under applicable law in your jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "Your counter-notice must be submitted in writing to our Designated Agent at <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a> with the subject line \"DMCA Counter-Notification — [Your Account/Username]\" and must contain ALL of the following:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "01 Identification",
+       "Identify the material that was removed or disabled and the location at which it appeared before removal (e.g., the specific URL)."
+      ],
+      [
+       "02 Contact Information",
+       "Your full legal name, mailing address, email address, and telephone number."
+      ],
+      [
+       "03 Good Faith Statement",
+       "\"I swear, under penalty of perjury, that I have a good faith belief that the material was removed or disabled as a result of a mistake or misidentification of the material to be removed or disabled.\""
+      ],
+      [
+       "04 Jurisdiction Consent",
+       "\"I consent to the jurisdiction of the Federal District Court for the judicial district in which my address is located (or, if outside the United States, for any judicial district in which Neon Next Generation PTY LTD may be found), and I will accept service of process from the person who provided the original infringement notification or an agent of such person.\""
+      ],
+      [
+       "05 Signature",
+       "Your physical or electronic signature. For electronic counter-notices, typing your full name constitutes an electronic signature."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>Effect of Counter-Notification</strong> Upon receiving a valid counter-notification, Neon will forward it to the original complainant within 2 business days. If the complainant does not notify us that they have filed a court action seeking to restrain your use of the material within <strong>10–14 business days</strong> of receiving the counter-notice, Neon will restore or re-enable access to the removed material. Neon cannot provide legal advice about whether a counter-notification is appropriate in your situation. We recommend consulting a qualified legal professional."
+    }
+   ]
+  },
+  {
+   "id": "restoration-procedure",
+   "title": "Content Restoration Procedure",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Following a valid counter-notification, content restoration occurs according to the following process:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Step 1",
+       "Counter-notice received and validated by Neon's designated agent."
+      ],
+      [
+       "Step 2",
+       "Counter-notice forwarded to the original complainant within 2 business days."
+      ],
+      [
+       "Step 3",
+       "Waiting period of 10–14 business days for the complainant to file court action."
+      ],
+      [
+       "Step 4",
+       "If no court filing is notified to us within the waiting period, content is restored."
+      ],
+      [
+       "Step 5",
+       "If court action is filed and we are notified, content remains disabled pending court resolution."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Neon does not make legal determinations about the merits of any copyright dispute. Our role in the restoration process is limited to compliance with the statutory safe harbour procedures. We are not responsible for any legal consequences resulting from a false counter-notification."
+    }
+   ]
+  },
+  {
+   "id": "repeat-infringer",
+   "title": "Repeat Infringer Policy",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "⚠ Neon Next Generation maintains a strict Repeat Infringer Policy in accordance with 17 U.S.C. § 512(i) and equivalent provisions under applicable international law."
+    },
+    {
+     "type": "p",
+     "html": "We will terminate, in appropriate circumstances, the accounts of customers and users who are repeatedly found to be infringers of copyright or who demonstrate a pattern of disregarding the intellectual property rights of others. The following guidelines apply:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "First Notice",
+       "Written warning issued to the customer. Content removed per Section 04."
+      ],
+      [
+       "Second Notice",
+       "Second formal warning. Account flagged for enhanced monitoring."
+      ],
+      [
+       "Third Notice",
+       "Account suspended pending review. Customer must demonstrate remediation steps."
+      ],
+      [
+       "Fourth Notice",
+       "Permanent account termination without refund. All associated data deleted per our Privacy Policy, Section 10."
+      ],
+      [
+       "Egregious Cases",
+       "Immediate termination regardless of prior notice count. Applicable for mass infringement, wilful infringement, or CSAM-adjacent violations."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Neon reserves the right to exercise its discretion in determining what constitutes \"repeat infringement\" and to take action more quickly than the above schedule in cases of wilful, large-scale, or particularly harmful infringement. Customers who believe their account has been terminated in error may appeal per the process described in our <a href=\"/legal/fair-use#enforcement\">Fair Use Policy, Section 15</a>."
+    }
+   ]
+  },
+  {
+   "id": "false-notices",
+   "title": "False or Abusive Notices",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Submitting a DMCA takedown notice knowing that the material is not infringing is a serious legal matter. Under 17 U.S.C. § 512(f) and equivalent provisions under international copyright law, any person who knowingly materially misrepresents that material is infringing, or that material was removed by mistake, may be liable for:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Damages, including costs and attorneys' fees, suffered by the alleged infringer.",
+      "Damages suffered by Neon Next Generation PTY LTD as a result of relying on the misrepresentation.",
+      "Civil or criminal penalties under applicable law in your jurisdiction."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Neon reserves the right to reject, disregard, or report to authorities any notice that we determine in good faith to be false, abusive, submitted in bad faith, or submitted for the purpose of censoring lawful speech or competition. Submitters of abusive notices may be blocked from submitting future notices."
+    },
+    {
+     "type": "p",
+     "html": "We recommend that all complainants consult with a qualified intellectual property attorney before submitting a takedown notice if they are unsure whether the material infringes their copyright."
+    }
+   ]
+  },
+  {
+   "id": "international",
+   "title": "International Copyright Frameworks",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We are incorporated in Australia and our primary legal obligations are governed by Australian law. However, we serve customers and process notices from users globally. The following international frameworks inform our approach to copyright notices:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Australia Copyright Act 1968 (Cth)",
+       "We comply with the safe harbour provisions under Part VAA of the Copyright Act 1968 as applicable to carriage service providers."
+      ],
+      [
+       "United States DMCA — 17 U.S.C. § 512",
+       "We follow DMCA safe harbour procedures as our baseline global standard, including the notice-and-takedown and counter-notification processes described in this Policy."
+      ],
+      [
+       "European Union EU Copyright Directive 2019/790 / DSA",
+       "We comply with applicable EU content moderation obligations. EU-based complainants may also raise concerns with relevant national authorities."
+      ],
+      [
+       "United Kingdom CDPA 1988 / Online Safety Act 2023",
+       "UK-based complainants may use this Policy's notice process. We comply with applicable UK safe harbour provisions."
+      ],
+      [
+       "Berne Convention 177 signatory countries",
+       "Copyright protection under the Berne Convention is automatic and does not require registration. We respect copyright claims from all Berne Convention signatory countries."
+      ],
+      [
+       "All Other Regions Applicable national law",
+       "Where you are located in a jurisdiction not listed above, we will process your notice in good faith under the substantive requirements most analogous to DMCA § 512 in your jurisdiction."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Regardless of jurisdiction, all copyright notices must be submitted to <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a> and must meet the substantive requirements set out in Section 03 of this Policy."
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-provider",
+   "title": "Infrastructure Provider Status",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation operates as a neutral infrastructure provider — a \"mere conduit\" and hosting service — and does not create, select, or modify the content transmitted through or hosted on its infrastructure. This status is relevant to our safe harbour protections under applicable copyright law."
+    },
+    {
+     "type": "h3",
+     "text": "What This Means"
+    },
+    {
+     "type": "list",
+     "items": [
+      "We do not proactively monitor customer content for copyright compliance.",
+      "We do not have editorial control over content hosted by our customers.",
+      "We act promptly upon receiving valid, complete copyright notices.",
+      "Our compliance with a takedown notice is not an admission that the material infringed copyright.",
+      "We maintain the repeat infringer policy required for safe harbour eligibility under 17 U.S.C. § 512(i)."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Limits of Our Role"
+    },
+    {
+     "type": "p",
+     "html": "Neon is not a party to any copyright dispute between a complainant and a customer. We cannot provide legal advice, make legal determinations about whether material infringes copyright, or be held liable for content we did not create. Disputes between copyright owners and customers must ultimately be resolved between those parties, with legal proceedings filed in the appropriate jurisdiction."
+    }
+   ]
+  },
+  {
+   "id": "disclaimer",
+   "title": "Disclaimer of Liability",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "As a neutral infrastructure provider, Neon Next Generation PTY LTD is not liable for the content uploaded, hosted, stored, or transmitted by our customers. We act solely as a conduit and hosting service. Our compliance with the DMCA safe harbour procedures and equivalent international frameworks does not constitute an admission of wrongdoing or legal liability by Neon."
+    },
+    {
+     "type": "p",
+     "html": "To the maximum extent permitted by applicable law, Neon's total aggregate liability to any party arising from or in connection with any copyright dispute, takedown notice, counter-notification, or action taken under this Policy shall not exceed the amount paid by the relevant customer in the 3 months preceding the claim."
+    },
+    {
+     "type": "p",
+     "html": "Nothing in this disclaimer limits any rights you have under the mandatory consumer protection or copyright laws of your jurisdiction that cannot be excluded by contract. See also our <a href=\"/legal/terms#disclaimers-liability\">Terms of Service, Section 11</a>."
+    }
+   ]
+  },
+  {
+   "id": "policy-updates",
+   "title": "Policy Updates",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We may update this Policy from time to time to reflect changes in law, our practices, or our infrastructure. When we do:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The revised Policy will be posted with an updated version number and effective date.",
+      "For material changes, we will notify customers via email or prominent notice at least 14 days before the change takes effect.",
+      "Continued use of our Services after the effective date constitutes acceptance of the updated Policy."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Version History"
+    },
+    {
+     "type": "list",
+     "items": [
+      "v1.1 · May 2, 2026 — Added Scope &amp; Global Application, International Copyright Frameworks table, Content Restoration Procedure, False or Abusive Notices, Infrastructure Provider Status, and Repeat Infringer escalation table. Updated email references to use dmca@. PHP-driven TOC. Added version history and download link.",
+      "v1.0 · May 2, 2026 — Initial DMCA &amp; Copyright Policy."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact-information",
+   "title": "Contact Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation PTY LTD operates as a digital-first organisation. We do not maintain physical walk-in locations or telephone support. All copyright notices, counter-notifications, and related enquiries must be submitted electronically."
+    },
+    {
+     "type": "h3",
+     "text": "Copyright & Legal"
+    },
+    {
+     "type": "p",
+     "html": "<strong>DMCA Notices &amp; Counter-Notices</strong> <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Legal / General Enquiries</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Information</strong> <a href=\"mailto:info@neonnextgeneration.com\">info@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "h3",
+     "text": "Other Departments"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Privacy &amp; Data Rights</strong> <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Billing &amp; Refunds</strong> <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Advertising</strong> <a href=\"mailto:ads@neonnextgeneration.com\">ads@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Neon Next Generation PTY LTD</strong> | ABN: 86 686 080 704"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/terms\">Terms of Service</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/privacy\">Privacy Policy</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/fair-use\">Fair Use Policy</a>"
+    },
+    {
+     "type": "h3",
+     "text": "Recommended Email Subject Lines"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Takedown:</strong> DMCA Takedown Notice — [Your Name / Organisation]",
+      "<strong>Counter:</strong> DMCA Counter-Notification — [Your Account / Username]",
+      "<strong>General:</strong> Copyright Enquiry — [Brief Description]"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We aim to acknowledge all DMCA notices within 24 hours and to act on valid notices within 2–3 business days. For urgent matters involving actively harmful or illegal content, contact <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> with \"URGENT\" in the subject line."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "slug": "refunds",
+ "title": "Refund Policy",
+ "volume": "Legal // Vol. 06",
+ "intro": "This Refund Policy forms part of our Terms of Service and applies to all purchases made through Neon Next Generation PTY LTD. It defines refund eligibility, processing timeframes, and cancellation terms.",
+ "preface": "This Refund Policy forms part of our <a href=\"/legal/terms\">Terms of Service</a>, <a href=\"/legal/privacy\">Privacy Policy</a>, and <a href=\"/legal/fair-use\">Fair Use Policy</a>, all incorporated by reference.",
+ "version": "1.2",
+ "effective": "July 18, 2026",
+ "sections": [
+  {
+   "id": "scope",
+   "title": "Scope & Application",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This Refund Policy applies to all purchases made through Neon Next Generation PTY LTD, including VPS Hosting, Web Hosting, Proxy, VPN services, and any add-on products. It applies globally to all customers regardless of location, nationality, or jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "This Policy forms part of our <a href=\"/legal/terms\">Terms of Service</a> and is incorporated by reference. Where your local mandatory consumer protection law provides rights that exceed what is stated in this Policy, those rights are preserved."
+    }
+   ]
+  },
+  {
+   "id": "eligibility",
+   "title": "Refund Eligibility",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We want you to be satisfied with our Services. Refund requests must be submitted to <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a> within the following timeframes:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Digital Products",
+       "14 calendar days",
+       "from the date of initial purchase"
+      ],
+      [
+       "Physical Products",
+       "30 calendar days",
+       "from the date of delivery"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We reserve the right to deny refunds for abuse of this policy, including repeated refund requests across multiple accounts."
+    }
+   ]
+  },
+  {
+   "id": "processing",
+   "title": "Processing Timeframes",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Approved refunds are processed within <strong>2 to 3 business days</strong> to the original payment method. The time for the refund to appear in your account may vary depending on your bank or payment processor."
+    },
+    {
+     "type": "p",
+     "html": "Refunds are returned to the original payment method only. We cannot process refunds to alternative accounts or third-party payment methods."
+    }
+   ]
+  },
+  {
+   "id": "subscriptions",
+   "title": "Subscriptions & Cancellation",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Subscriptions renew automatically unless cancelled before the renewal date. Where local law provides a cancellation or cooling-off right, that right applies."
+    },
+    {
+     "type": "list",
+     "items": [
+      "Subscriptions cancelled after the refund period will remain active until the end of the current billing cycle and will not auto-renew.",
+      "Where your local consumer law provides greater refund or cancellation rights, those rights apply.",
+      "Cancellation requests can be submitted from the <a href=\"https://billing.neonnextgeneration.com/\">Billing Portal</a> or by contacting <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "non-refundable",
+   "title": "Non-Refundable Items",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The following purchases may be non-refundable. This will be clearly stated prior to purchase:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Domain registrations and transfers.",
+      "Custom development services and one-time setup fees.",
+      "Add-on services that have been fully provisioned or consumed.",
+      "Services terminated due to violations of our <a href=\"/legal/fair-use\">Fair Use Policy</a> or <a href=\"/legal/terms#acceptable-use\">Terms of Service</a>."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chargebacks",
+   "title": "Chargebacks & Disputes",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "⚠ Initiate a chargeback without contacting us first may result in immediate account termination."
+    },
+    {
+     "type": "p",
+     "html": "We ask that you contact <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a> before initiating any chargeback. Most billing disputes can be resolved directly and faster than through a chargeback process."
+    },
+    {
+     "type": "p",
+     "html": "If a chargeback is initiated, we may dispute it with evidence of service delivery and prior communication. Accounts with unresolved chargebacks may be suspended pending resolution."
+    }
+   ]
+  },
+  {
+   "id": "failed-payments",
+   "title": "Failed Payments",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If a scheduled payment fails, the following process applies:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Day 0",
+       "Payment fails — immediate email notification sent."
+      ],
+      [
+       "Day 3",
+       "Second automatic payment attempt."
+      ],
+      [
+       "Day 5",
+       "Final reminder sent if payment remains outstanding."
+      ],
+      [
+       "Day 7",
+       "Account suspended pending resolution."
+      ],
+      [
+       "Day 30",
+       "Account permanently terminated and data deleted per our Privacy Policy."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Failed payments trigger a 7-day grace period to update payment details before account suspension. Contact <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a> to resolve billing issues."
+    }
+   ]
+  },
+  {
+   "id": "consumer-rights",
+   "title": "Statutory Consumer Rights",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Users in jurisdictions with mandatory consumer protection laws retain all statutory rights that cannot be waived by contract. These Terms and this Refund Policy do not affect those rights. Where your local consumer law provides greater refund rights than stated here, those rights apply."
+    },
+    {
+     "type": "p",
+     "html": "For information about how we handle your personal data in relation to billing and refunds, see our <a href=\"/legal/privacy\">Privacy Policy</a>."
+    }
+   ]
+  },
+  {
+   "id": "policy-updates",
+   "title": "Policy Updates",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We may update this Policy from time to time. When we do:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The revised Policy will be posted with an updated version number and effective date.",
+      "For material changes, we will notify customers via email at least 14 days before the change takes effect.",
+      "Continued use of our Services after the effective date constitutes acceptance of the updated Policy."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Version History"
+    },
+    {
+     "type": "list",
+     "items": [
+      "v1.1 · July 18, 2026 — Extracted refund terms from Terms of Service into standalone policy page.",
+      "v1.0 · April 12, 2026 — Initial refund terms included in Terms of Service v2.0."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact-information",
+   "title": "Contact Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "For refund requests, billing enquiries, or cancellation assistance, contact us using the details below."
+    },
+    {
+     "type": "h3",
+     "text": "Billing & Refunds"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Refund Requests</strong> <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Billing Portal</strong> <a href=\"https://billing.neonnextgeneration.com/\">billing.neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Enquiries</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Neon Next Generation PTY LTD</strong> | ABN: 86 686 080 704"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/terms\">Terms of Service</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/privacy\">Privacy Policy</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/fair-use\">Fair Use Policy</a>"
+    }
+   ]
+  }
+ ]
+}

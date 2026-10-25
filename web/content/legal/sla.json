@@ -1,0 +1,261 @@
+{
+ "slug": "sla",
+ "title": "Service Level Agreement",
+ "volume": "Legal // Vol. 05",
+ "intro": "This Service Level Agreement (\"SLA\") forms part of our Terms of Service and applies to all hosted services provided by Neon Next Generation PTY LTD. It defines our uptime commitments, service credit eligibility, and incident response procedures.",
+ "preface": "This Service Level Agreement forms part of our <a href=\"/legal/terms\">Terms of Service</a>, <a href=\"/legal/privacy\">Privacy Policy</a>, and <a href=\"/legal/fair-use\">Fair Use Policy</a>, all incorporated by reference.",
+ "version": "1.2",
+ "effective": "July 18, 2026",
+ "sections": [
+  {
+   "id": "scope",
+   "title": "Scope & Application",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This Service Level Agreement (\"SLA\") applies to all hosted services provided by Neon Next Generation PTY LTD, including VPS Hosting, Web Hosting, Proxy, and VPN services. It applies globally to all paying customers regardless of location, nationality, or jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "This SLA forms part of our <a href=\"/legal/terms\">Terms of Service</a> and is incorporated by reference. Where your local mandatory consumer protection law provides rights that exceed what is stated in this SLA, those rights are preserved."
+    }
+   ]
+  },
+  {
+   "id": "uptime-target",
+   "title": "Uptime Target",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We target <strong>99.5% monthly uptime</strong> for all core Services, excluding scheduled maintenance. Uptime is calculated on a rolling 30-day basis from the first day of each calendar month."
+    },
+    {
+     "type": "note",
+     "title": "Uptime Calculation",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Uptime is measured as the percentage of total minutes in a calendar month that our core services are operational and accessible. Downtime is measured from the time an incident is confirmed by our team until service is restored."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scheduled-maintenance",
+   "title": "Scheduled Maintenance",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We provide at least <strong>24 hours notice</strong> before any scheduled maintenance that may cause service interruption. Notice is provided via email, our status page, and customer portal."
+    },
+    {
+     "type": "p",
+     "html": "Emergency maintenance may occur without notice where it is necessary to protect service integrity, address security vulnerabilities, or prevent imminent service degradation. We will communicate the nature and expected duration of emergency maintenance as soon as practicable."
+    },
+    {
+     "type": "p",
+     "html": "Scheduled maintenance windows are typically conducted between 02:00–06:00 AEST (UTC+10/UTC+11) to minimise customer impact."
+    }
+   ]
+  },
+  {
+   "id": "service-credits",
+   "title": "Service Credits",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If we fail to meet our uptime target in a given month, eligible customers may request service credits according to the following schedule:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "99.0% – 99.5%",
+       "5% credit",
+       "of that month's invoice"
+      ],
+      [
+       "95.0% – 99.0%",
+       "10% credit",
+       "of that month's invoice"
+      ],
+      [
+       "Below 95.0%",
+       "25% credit",
+       "of that month's invoice"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Service credits apply to future invoices and are not redeemable as cash refunds. Credits are calculated based on the monthly invoice amount for the affected service only."
+    }
+   ]
+  },
+  {
+   "id": "exclusions",
+   "title": "Exclusions",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This SLA does not apply to the following:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Beta features, preview releases, or services explicitly marked as \"not production-ready.\"",
+      "Trial accounts or services provided free of charge.",
+      "Outages caused by customer actions, including misconfiguration, excessive resource usage, or violation of our <a href=\"/legal/fair-use\">Fair Use Policy</a>.",
+      "Outages caused by third-party services outside our control, including upstream network providers, DNS providers, or CDN services not operated by Neon.",
+      "Scheduled maintenance communicated per Section 03.",
+      "Force majeure events as described in our <a href=\"/legal/terms#force-majeure\">Terms of Service</a>.",
+      "Internet connectivity issues between the customer's location and our infrastructure that are outside our network."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "incident-response",
+   "title": "Incident Response & Communication",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "During a confirmed service incident, we will communicate with affected customers through the following channels and timeframes:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Initial Notice",
+       "Within 15 minutes",
+       "Status page update and email notification to affected customers."
+      ],
+      [
+       "Ongoing Updates",
+       "Every 30 minutes",
+       "Status page updates with current incident status and estimated resolution time."
+      ],
+      [
+       "Resolution",
+       "Within 15 minutes",
+       "Status page update confirming service restoration."
+      ],
+      [
+       "Post-Incident",
+       "Within 72 hours",
+       "Post-incident report published for major incidents (P1/P2)."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Live incident updates are communicated via email to affected customers."
+    }
+   ]
+  },
+  {
+   "id": "claim-process",
+   "title": "Service Credit Claim Process",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "To request a service credit, eligible customers must:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Submit a request to <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a> within <strong>14 days</strong> of the end of the month in which the downtime occurred.",
+      "Include the affected service, account ID, and approximate dates/times of the downtime experienced.",
+      "Allow up to 10 business days for our team to verify and process the request."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Service credits are applied to the customer's next invoice and are non-transferable. Credits are not redeemable for cash."
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "title": "Limitations & Liability",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The service credits described in this SLA constitute Neon Next Generation PTY LTD's sole and exclusive liability for any failure to meet the uptime targets set out herein, subject to the mandatory consumer protection laws of your jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "Nothing in this SLA limits any rights you have under the mandatory consumer protection laws of your jurisdiction that cannot be excluded by contract. See also our <a href=\"/legal/terms#disclaimers-liability\">Terms of Service, Section 11</a>."
+    }
+   ]
+  },
+  {
+   "id": "policy-updates",
+   "title": "Policy Updates",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We may update this SLA from time to time. When we do:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The revised SLA will be posted with an updated version number and effective date.",
+      "For material changes, we will notify customers via email at least 14 days before the change takes effect.",
+      "Continued use of our Services after the effective date constitutes acceptance of the updated SLA."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Version History"
+    },
+    {
+     "type": "list",
+     "items": [
+      "v1.1 · July 18, 2026 — Extracted SLA from Terms of Service Section 24 into standalone policy page.",
+      "v1.0 · April 12, 2026 — Initial SLA included in Terms of Service v2.0."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact-information",
+   "title": "Contact Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "For SLA-related enquiries, service credit requests, or incident reports, contact us using the details below."
+    },
+    {
+     "type": "h3",
+     "text": "SLA & Billing"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Service Credit Requests</strong> <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Enquiries</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Neon Next Generation PTY LTD</strong> | ABN: 86 686 080 704"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/terms\">Terms of Service</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/privacy\">Privacy Policy</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/fair-use\">Fair Use Policy</a>"
+    }
+   ]
+  }
+ ]
+}

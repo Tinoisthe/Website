@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T14:50:28.992120+00:00",
+  "title": "Design System: Neon Next Generation",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Void",
+        "canonical": "#050208",
+        "tonalRamp": [
+          "#1f0c31",
+          "#38165a",
+          "#57238b",
+          "#752fbc",
+          "#9454d4",
+          "#b285e0",
+          "#d1b6ed",
+          "#ede2f8"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Night Surface",
+        "canonical": "#0d0a14",
+        "tonalRamp": [
+          "#1b1429",
+          "#31254b",
+          "#4b3a74",
+          "#664e9c",
+          "#8670b8",
+          "#a899cc",
+          "#cbc2e0",
+          "#ebe7f3"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "canonical": "#130f1d",
+        "tonalRamp": [
+          "#1a1528",
+          "#30264a",
+          "#4b3b72",
+          "#65509b",
+          "#8572b6",
+          "#a89acb",
+          "#cbc2e0",
+          "#ebe7f3"
+        ]
+      },
+      "raised-2": {
+        "role": "neutral",
+        "displayName": "Raised 2",
+        "canonical": "#1a1527",
+        "tonalRamp": [
+          "#1b1528",
+          "#312749",
+          "#4b3d71",
+          "#665298",
+          "#8674b4",
+          "#a89cc9",
+          "#cbc3df",
+          "#ebe8f3"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgb(140 120 200 / 0.16)",
+        "tonalRamp": [
+          "#18122b",
+          "#2c2050",
+          "#44327b",
+          "#5d44a7",
+          "#7d67c1",
+          "#a292d3",
+          "#c7bee4",
+          "#e9e6f5"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Lit",
+        "canonical": "rgb(155 93 229 / 0.38)",
+        "tonalRamp": [
+          "#1d0835",
+          "#351061",
+          "#511895",
+          "#6e20ca",
+          "#8d46e1",
+          "#ae7bea",
+          "#ceb0f2",
+          "#ece0fa"
+        ]
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Starlight",
+        "canonical": "#f0f0fa",
+        "tonalRamp": [
+          "#0f0f2e",
+          "#1c1c54",
+          "#2b2b82",
+          "#3b3bb0",
+          "#5e5ec9",
+          "#8c8cd9",
+          "#babae8",
+          "#e4e4f6"
+        ]
+      },
+      "fg-2": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#c9c3dc",
+        "tonalRamp": [
+          "#1a1727",
+          "#302947",
+          "#4b406e",
+          "#655694",
+          "#8578b0",
+          "#a89ec7",
+          "#cbc5dd",
+          "#ebe8f2"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Dusk",
+        "canonical": "#9a93b0",
+        "tonalRamp": [
+          "#1c1a23",
+          "#342f41",
+          "#504964",
+          "#6c6387",
+          "#8b83a5",
+          "#aca7be",
+          "#cdcad8",
+          "#eceaf0"
+        ]
+      },
+      "lavender": {
+        "role": "neutral",
+        "displayName": "Lavender",
+        "canonical": "#d4c8ef",
+        "tonalRamp": [
+          "#180e2f",
+          "#2c1957",
+          "#442786",
+          "#5d35b6",
+          "#7d59cf",
+          "#a288dd",
+          "#c7b8ea",
+          "#e9e3f7"
+        ]
+      },
+      "violet": {
+        "role": "primary",
+        "displayName": "Fox Violet",
+        "canonical": "#9b5de5",
+        "tonalRamp": [
+          "#1d0835",
+          "#351061",
+          "#511895",
+          "#6e20ca",
+          "#8d46e1",
+          "#ae7bea",
+          "#ceb0f2",
+          "#ece0fa"
+        ]
+      },
+      "violet-deep": {
+        "role": "primary",
+        "displayName": "Deep Ultraviolet",
+        "canonical": "#7b2ff2",
+        "tonalRamp": [
+          "#19043a",
+          "#2d076a",
+          "#460aa3",
+          "#5e0edd",
+          "#7f35f2",
+          "#a46ff6",
+          "#c8a9fa",
+          "#eaddfd"
+        ]
+      },
+      "violet-glow": {
+        "role": "primary",
+        "displayName": "Glow Lilac",
+        "canonical": "#b47aff",
+        "tonalRamp": [
+          "#1b003d",
+          "#310070",
+          "#4c00ad",
+          "#6600eb",
+          "#8629ff",
+          "#a966ff",
+          "#cba3ff",
+          "#ebdbff"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Uptime Green",
+        "canonical": "#34d399",
+        "tonalRamp": [
+          "#0b3224",
+          "#145c42",
+          "#1f8f66",
+          "#2ac18a",
+          "#4fd9a7",
+          "#81e4c0",
+          "#b4efd9",
+          "#e2f9f0"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Stock Amber",
+        "canonical": "#fbbf24",
+        "tonalRamp": [
+          "#3c2c01",
+          "#6e5002",
+          "#aa7c03",
+          "#e6a704",
+          "#fbc22d",
+          "#fcd369",
+          "#fde5a5",
+          "#fef5dc"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero headline; uppercase, Lavender accent, the single gradient word 'hosting'."
+      },
+      "display-page": {
+        "displayName": "Display, page",
+        "purpose": "Inner-page hero headings."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, two-tone with a Lavender accent."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Plan price figure, tabular."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Plan and card titles."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero and section intros in Mist."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Card copy and buttons."
+      },
+      "body-sm": {
+        "displayName": "Body small",
+        "purpose": "Feature lists, contact rows, taglines."
+      },
+      "prose": {
+        "displayName": "Prose",
+        "purpose": "FAQ and legal long-form, Mist with Starlight bold and Glow Lilac links."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Status pills and popular badge; uppercase."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Terminal output and machine identifiers only."
+      }
+    },
+    "gradients": [
+      {
+        "name": "brand-gradient-text",
+        "value": "linear-gradient(100deg, #c9a4ff 0%, #9b5de5 40%, #34d399 100%)",
+        "purpose": "Text fill for the single home-hero word 'hosting' only."
+      },
+      {
+        "name": "primary-fill",
+        "value": "linear-gradient(135deg, #7b2ff2, #9b5de5)",
+        "purpose": "Primary buttons, active tab, Most popular badge."
+      },
+      {
+        "name": "divider",
+        "value": "linear-gradient(90deg, transparent, rgb(155 93 229 / 0.45), rgb(52 211 153 / 0.3), transparent)",
+        "purpose": "1px hairline opening each section and the footer."
+      },
+      {
+        "name": "glass-card",
+        "value": "linear-gradient(180deg, rgb(26 21 39 / 0.72), rgb(13 10 20 / 0.6))",
+        "purpose": "Card fill with backdrop-filter: blur(10px)."
+      },
+      {
+        "name": "wash-hero",
+        "value": "radial-gradient(ellipse 70% 55% at 75% 30%, rgb(123 47 242 / 0.22), transparent 65%), radial-gradient(ellipse 50% 40% at 10% 90%, rgb(155 93 229 / 0.12), transparent 60%), linear-gradient(180deg, #050208, #0d0a14)",
+        "purpose": "Home hero atmosphere."
+      },
+      {
+        "name": "wash-pricing",
+        "value": "radial-gradient(ellipse 60% 35% at 50% 0%, rgb(155 93 229 / 0.18), transparent 70%), #050208",
+        "purpose": "Pricing band atmosphere."
+      },
+      {
+        "name": "wash-infra",
+        "value": "radial-gradient(ellipse 55% 45% at 12% 10%, rgb(155 93 229 / 0.2), transparent 65%), radial-gradient(ellipse 45% 40% at 90% 20%, rgb(52 211 153 / 0.14), transparent 60%), linear-gradient(180deg, #0d0a14, #050208)",
+        "purpose": "Infrastructure band atmosphere."
+      },
+      {
+        "name": "wash-community",
+        "value": "radial-gradient(ellipse 50% 60% at 85% 50%, rgb(52 211 153 / 0.12), transparent 60%), radial-gradient(ellipse 50% 50% at 10% 80%, rgb(123 47 242 / 0.16), transparent 60%), #050208",
+        "purpose": "Community band atmosphere."
+      },
+      {
+        "name": "wash-contact",
+        "value": "radial-gradient(ellipse 60% 50% at 20% 30%, rgb(123 47 242 / 0.2), transparent 65%), linear-gradient(180deg, #0d0a14, #050208)",
+        "purpose": "Contact band atmosphere."
+      },
+      {
+        "name": "wash-page",
+        "value": "radial-gradient(ellipse 60% 70% at 80% 0%, rgb(123 47 242 / 0.24), transparent 65%), radial-gradient(ellipse 40% 50% at 0% 100%, rgb(52 211 153 / 0.08), transparent 60%), #050208",
+        "purpose": "Inner-page hero atmosphere."
+      },
+      {
+        "name": "hero-grid",
+        "value": "72px violet (rgb(155 93 229 / 0.5)) 1px grid at 0.06 opacity, masked radial-gradient(ellipse 70% 60% at 50% 45%, black 20%, transparent 72%)",
+        "purpose": "Faint grid behind home and page heroes."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "card-lift",
+        "value": "0 24px 48px -24px rgb(123 47 242 / 0.45)",
+        "purpose": "Card hover, with translateY(-4px) and border-strong."
+      },
+      {
+        "name": "popular-ring",
+        "value": "0 0 0 1px rgb(155 93 229 / 0.25), 0 30px 70px -30px rgb(123 47 242 / 0.7)",
+        "purpose": "Featured plan card, border violet 60%."
+      },
+      {
+        "name": "button-primary",
+        "value": "0 10px 30px -10px rgb(123 47 242 / 0.8)",
+        "purpose": "Primary button at rest."
+      },
+      {
+        "name": "button-primary-hover",
+        "value": "0 16px 40px -12px rgb(123 47 242 / 0.95)",
+        "purpose": "Primary button hover."
+      },
+      {
+        "name": "tab-active",
+        "value": "0 8px 24px -10px rgb(123 47 242 / 0.9)",
+        "purpose": "Active plan-switcher tab."
+      },
+      {
+        "name": "panel-float",
+        "value": "0 40px 80px -40px rgb(123 47 242 / 0.6)",
+        "purpose": "Hero panel mock."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #b47aff; outline-offset: 3px",
+        "purpose": "All :focus-visible."
+      },
+      {
+        "name": "header-frost",
+        "value": "background: rgb(5 2 8 / 0.55); backdrop-filter: blur(40px) saturate(1.5)",
+        "purpose": "Shared layer behind announcement bar and nav."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Card lift, button lift, grid swap."
+      },
+      {
+        "name": "card-hover",
+        "value": "transform 400ms ease-out-expo, border-color 300ms ease, box-shadow 400ms ease-out-expo",
+        "purpose": "Interactive card hover."
+      },
+      {
+        "name": "button",
+        "value": "transform 250ms ease-out-expo, box-shadow 300ms ease, background-color 200ms ease",
+        "purpose": "Button state changes."
+      },
+      {
+        "name": "swap",
+        "value": "fade-up 450ms ease-out-expo (opacity 0, translateY(10px) to rest)",
+        "purpose": "Plan grid crossfade on tab change."
+      },
+      {
+        "name": "marquee",
+        "value": "translateX(-50%) 45s linear infinite; reverse row 50s",
+        "purpose": "Partner chip rows, edge-masked."
+      },
+      {
+        "name": "pulse-dot",
+        "value": "opacity to 0.35, 2s ease-in-out infinite",
+        "purpose": "Announcement dot."
+      },
+      {
+        "name": "caret",
+        "value": "1s steps(1) infinite",
+        "purpose": "Terminal caret."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce disables marquee, caret, pulse-dot, swap; removes hover transforms; smooth scroll off",
+        "purpose": "Accessibility floor."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gradient pill for the main action per band; hero variant may carry a muted price.",
+      "html": "<button class=\"ds-btn-primary\">Deploy VPS <span class=\"ds-btn-note\">from AU$5.94/mo</span></button>",
+      "css": ".ds-btn-primary{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);display:inline-flex;align-items:center;gap:.5rem;height:48px;padding:0 24px;border:0;border-radius:999px;font-weight:600;font-size:15px;color:#fff;background:linear-gradient(135deg,var(--color-violet-deep,#7b2ff2),var(--color-violet,#9b5de5));box-shadow:0 10px 30px -10px rgb(123 47 242/.8);cursor:pointer;transition:transform 250ms cubic-bezier(.16,1,.3,1),box-shadow 300ms ease}.ds-btn-primary:hover{transform:translateY(-1px);box-shadow:0 16px 40px -12px rgb(123 47 242/.95)}.ds-btn-primary:focus-visible{outline:2px solid var(--color-violet-glow,#b47aff);outline-offset:3px}.ds-btn-note{font-weight:400;color:rgb(255 255 255/.75)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary pill: violet-tinted fill and hairline violet border.",
+      "html": "<button class=\"ds-btn-ghost\">Deploy VPC</button>",
+      "css": ".ds-btn-ghost{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);display:inline-flex;align-items:center;height:48px;padding:0 24px;border-radius:999px;font-weight:600;font-size:15px;color:var(--color-fg,#f0f0fa);background:rgb(155 93 229/.08);border:1px solid rgb(155 93 229/.32);cursor:pointer;transition:background-color 200ms ease,border-color 200ms ease}.ds-btn-ghost:hover{background:rgb(155 93 229/.16);border-color:var(--color-violet,#9b5de5)}.ds-btn-ghost:focus-visible{outline:2px solid var(--color-violet-glow,#b47aff);outline-offset:3px}"
+    },
+    {
+      "name": "Status Pills",
+      "kind": "chip",
+      "refersTo": "status-pill-available",
+      "description": "Green available, amber out of stock / planned, violet in progress.",
+      "html": "<div class=\"ds-pills\"><span class=\"ds-pill ds-ok\"><i></i>Available</span><span class=\"ds-pill ds-out\"><i></i>Out of stock</span><span class=\"ds-pill ds-prog\">In progress</span></div>",
+      "css": ".ds-pills{display:flex;gap:8px;background:#050208;padding:16px}.ds-pill{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}.ds-pill i{width:6px;height:6px;border-radius:999px;background:currentColor}.ds-ok{background:rgb(52 211 153/.12);color:#34d399}.ds-out{background:rgb(251 191 36/.12);color:#fbbf24}.ds-prog{background:rgb(155 93 229/.18);color:#b47aff}"
+    },
+    {
+      "name": "Glass Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Core translucent container; lifts and lights its border on hover.",
+      "html": "<article class=\"ds-card\"><h3>Contact directory</h3><p>Reach the right department by email.</p></article>",
+      "css": ".ds-card{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);max-width:320px;padding:24px;border-radius:20px;color:#f0f0fa;background:linear-gradient(180deg,rgb(26 21 39/.72),rgb(13 10 20/.6));border:1px solid rgb(140 120 200/.16);backdrop-filter:blur(10px);transition:transform 400ms cubic-bezier(.16,1,.3,1),border-color 300ms ease,box-shadow 400ms cubic-bezier(.16,1,.3,1)}.ds-card:hover{transform:translateY(-4px);border-color:rgb(155 93 229/.38);box-shadow:0 24px 48px -24px rgb(123 47 242/.45)}.ds-card h3{margin:0;font-size:19px;font-weight:700;letter-spacing:-.025em}.ds-card p{margin:6px 0 0;font-size:14px;color:#9a93b0}"
+    },
+    {
+      "name": "Plan Card",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "The purchase unit: name + status, AU$ price, vCPU/RAM/NVMe spec strip, CTA, features. Popular variant shown.",
+      "html": "<article class=\"ds-plan\"><span class=\"ds-badge\">Most popular</span><div class=\"ds-plan-top\"><h3>VPS 4</h3><span class=\"ds-st\"><i></i>Available</span></div><p class=\"ds-tag\">For production workloads.</p><p class=\"ds-price\"><small>AU$</small><b>23.76</b><span>/mo</span></p><div class=\"ds-strip\"><div><b>4 cores</b><span>vCPU</span></div><div><b>8 GB</b><span>RAM</span></div><div><b>80 GB</b><span>NVMe</span></div></div><a class=\"ds-cta\" href=\"#\">Deploy now</a><ul><li>DDoS protection</li><li>10Gbps network</li></ul></article>",
+      "css": ".ds-plan{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);position:relative;max-width:340px;padding:24px;border-radius:20px;color:#f0f0fa;background:linear-gradient(180deg,rgb(26 21 39/.72),rgb(13 10 20/.6));border:1px solid rgb(155 93 229/.6);box-shadow:0 0 0 1px rgb(155 93 229/.25),0 30px 70px -30px rgb(123 47 242/.7);transition:transform 400ms cubic-bezier(.16,1,.3,1)}.ds-plan:hover{transform:translateY(-4px)}.ds-badge{position:absolute;top:-12px;left:24px;border-radius:999px;padding:4px 12px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#fff;background:linear-gradient(135deg,#7b2ff2,#9b5de5)}.ds-plan-top{display:flex;justify-content:space-between;align-items:flex-start}.ds-plan h3{margin:0;font-size:19px;font-weight:700;letter-spacing:-.025em}.ds-st{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:600;background:rgb(52 211 153/.12);color:#34d399}.ds-st i{width:6px;height:6px;border-radius:999px;background:#34d399}.ds-tag{margin:6px 0 0;font-size:14px;color:#9a93b0}.ds-price{margin:20px 0 0;display:flex;align-items:baseline;gap:4px;font-variant-numeric:tabular-nums}.ds-price small{align-self:flex-start;padding-top:6px;font-size:14px;font-weight:600;color:#c9c3dc}.ds-price b{font-size:44px;line-height:1;letter-spacing:-.025em}.ds-price span{font-size:14px;color:#9a93b0}.ds-strip{margin-top:20px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.ds-strip div{border-radius:12px;background:rgb(5 2 8/.6);padding:10px 12px}.ds-strip b{display:block;font-size:15px;font-variant-numeric:tabular-nums}.ds-strip span{font-size:12px;color:#9a93b0}.ds-cta{margin-top:24px;display:flex;justify-content:center;align-items:center;height:48px;border-radius:999px;font-weight:600;font-size:15px;color:#fff;text-decoration:none;background:linear-gradient(135deg,#7b2ff2,#9b5de5);box-shadow:0 10px 30px -10px rgb(123 47 242/.8)}.ds-cta:focus-visible{outline:2px solid #b47aff;outline-offset:3px}.ds-plan ul{margin:24px 0 0;padding:20px 0 0;border-top:1px solid rgb(140 120 200/.16);list-style:none;font-size:14px;color:#c9c3dc}.ds-plan li{padding:4px 0}.ds-plan li::before{content:'';display:inline-block;width:8px;height:8px;margin-right:10px;border-radius:999px;background:#34d399}"
+    },
+    {
+      "name": "Plan Switcher",
+      "kind": "nav",
+      "refersTo": "tab-active",
+      "description": "Pill tablist; active tab takes the primary gradient and glow.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">VPS</button><button role=\"tab\">Containers</button><button role=\"tab\">Web hosting</button></div>",
+      "css": ".ds-tabs{display:inline-flex;padding:6px;border-radius:999px;border:1px solid rgb(140 120 200/.16);background:rgb(13 10 20/.8)}.ds-tabs button{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);height:40px;padding:0 20px;border:0;border-radius:999px;background:transparent;font-size:14px;font-weight:600;color:#c9c3dc;cursor:pointer}.ds-tabs button:hover{color:#f0f0fa}.ds-tabs button[aria-selected=true]{color:#fff;background:linear-gradient(135deg,#7b2ff2,#9b5de5);box-shadow:0 8px 24px -10px rgb(123 47 242/.9)}.ds-tabs button:focus-visible{outline:2px solid #b47aff;outline-offset:3px}"
+    },
+    {
+      "name": "Site Header",
+      "kind": "nav",
+      "refersTo": "nav-link-active",
+      "description": "Frosted sticky header: one translucent blurred layer behind announcement bar and nav.",
+      "html": "<header class=\"ds-head\"><div class=\"ds-ann\"><i></i>Announcement text. <a href=\"#\">Learn more</a></div><nav><b>Neon Next Generation</b><a class=\"on\" href=\"#\">Pricing</a><a href=\"#\">About</a><a href=\"#\">FAQ</a><a class=\"ds-go\" href=\"#\">Get started</a></nav></header>",
+      "css": ".ds-head{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);background:rgb(5 2 8/.55);backdrop-filter:blur(40px) saturate(1.5);color:#f0f0fa}.ds-ann{display:flex;justify-content:center;align-items:center;gap:10px;padding:8px;font-size:13px;font-weight:500;border-bottom:1px solid rgb(155 93 229/.2);background:linear-gradient(90deg,rgb(123 47 242/.18),rgb(155 93 229/.1),rgb(52 211 153/.1))}.ds-ann i{width:6px;height:6px;border-radius:999px;background:#b47aff}.ds-ann a{color:#b47aff}.ds-head nav{display:flex;align-items:center;gap:4px;height:64px;padding:0 24px;border-bottom:1px solid rgb(140 120 200/.16)}.ds-head nav b{margin-right:auto;font-size:15px;letter-spacing:-.025em}.ds-head nav a{padding:8px 14px;border-radius:999px;font-size:14px;font-weight:500;color:#c9c3dc;text-decoration:none}.ds-head nav a:hover{color:#f0f0fa}.ds-head nav a.on{background:rgb(155 93 229/.15);color:#f0f0fa}.ds-head nav a.ds-go{margin-left:auto;height:40px;display:inline-flex;align-items:center;padding:0 20px;color:#fff;font-weight:600;background:linear-gradient(135deg,#7b2ff2,#9b5de5)}"
+    },
+    {
+      "name": "Section Heading",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Uppercase Inter 700 heading with solid lavender accent phrase, over a section wash.",
+      "html": "<section class=\"ds-sec\"><h2>Simple, transparent <span>pricing</span></h2><p>No hidden fees. No lock-in contracts.</p></section>",
+      "css": ".ds-sec{font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);padding:48px 24px;text-align:center;color:#f0f0fa;background:radial-gradient(ellipse 60% 35% at 50% 0%,rgb(155 93 229/.18),transparent 70%),#050208}.ds-sec h2{margin:0;font-size:clamp(2.25rem,4.6vw,3.75rem);font-weight:700;text-transform:uppercase;letter-spacing:-.025em;line-height:1.04;text-wrap:balance}.ds-sec h2 span{color:#d4c8ef}.ds-sec p{margin:20px auto 0;max-width:36rem;font-size:17px;line-height:1.625;color:#c9c3dc}"
+    },
+    {
+      "name": "Deploy Terminal",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Glass terminal window with mono output; the only home for JetBrains Mono.",
+      "html": "<figure class=\"ds-term\"><div class=\"ds-term-bar\"><span><i></i>Terminal — nng@syd-01</span><span>bash</span></div><pre><span class=\"g\">$ </span>nng deploy --plan vps-4 --region syd\n<span class=\"m\">› Provisioning VPS in SYD-01...</span>\n<span class=\"g\">› ✓ NVMe volume attached</span>\n› Server ready in <b>14s</b></pre></figure>",
+      "css": ".ds-term{margin:0;max-width:440px;overflow:hidden;border-radius:16px;border:1px solid rgb(140 120 200/.16);background:linear-gradient(180deg,rgb(26 21 39/.72),rgb(13 10 20/.6));color:#f0f0fa}.ds-term-bar{display:flex;justify-content:space-between;padding:10px 16px;font:12px Inter,system-ui,sans-serif;color:#9a93b0;border-bottom:1px solid rgb(140 120 200/.16);background:rgb(5 2 8/.5)}.ds-term-bar i{display:inline-block;width:6px;height:6px;margin-right:8px;border-radius:999px;background:#34d399}.ds-term pre{margin:0;padding:16px;font:13px/1.9 var(--font-mono,'JetBrains Mono',ui-monospace,monospace);white-space:pre-wrap}.ds-term .g{color:#34d399}.ds-term .m{color:#9a93b0}.ds-term b{color:#fbbf24}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Original, Done Properly",
+    "overview": "The incumbent Neon Next Generation identity, kept by decision and refined: a near-black violet ground, brand violet from the fox logo, a green secondary and amber reserved for stock and schedule warnings. A returning customer recognises it immediately; what changed is rhythm and legibility. Every section of a page owns its own soft radial glow wash, so the page reads as a sequence of distinct places inside one brand rather than one undifferentiated dark scroll.\n\nThe density is commercial and scannable. Plan cards are the unit of purchase, and each carries a three-cell spec strip (vCPU, RAM, NVMe) and an AU$ price set large in tabular numerals so plans compare at a glance. Product evidence is real or labelled: the hosting-panel window is an illustrative mock and is captioned as such; the deploy terminal is an example run. Proof is specs, prices, stock status, hardware partners, the real team and the Discord community, never invented ratings or counts.\n\nConfirmed rejections: the \"Harbour Light Festival\" world (condensed display face, square corners, projector colours) and the generic white SaaS template.",
+    "keyCharacteristics": [
+      "Near-black violet ground (#050208) with tonal surfaces, never a light theme.",
+      "Inter throughout; uppercase, tight-tracked display headings with a solid lavender second line.",
+      "One gradient word on the whole site: \"hosting\" in the home hero.",
+      "A distinct radial glow wash per section, separated by a violet-to-green hairline.",
+      "Translucent glass cards (20px) with hairline violet borders; pill buttons, tabs and status chips.",
+      "Green means available or done, amber means out of stock, planned or a warning figure."
+    ],
+    "rules": [
+      {
+        "name": "The One Gradient Word Rule",
+        "body": "Gradient text (pale lilac #c9a4ff into Fox Violet into Uptime Green, 100deg) appears exactly once: the word \"hosting\" in the home hero. Every other heading accent is solid Lavender.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status Colour Rule",
+        "body": "Green is available, completed or online; amber is out of stock, planned, coming soon or a warning figure; violet is in progress. Never swap them, never use amber decoratively.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Tone Heading Rule",
+        "body": "Display and section headings are uppercase Inter 700 with the final word or phrase in solid Lavender; never a second weight, never a second family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Prices, spec values and stats always set in tabular numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Own-Atmosphere Rule",
+        "body": "Every section uses a different wash (hero, pricing, infra, community, contact; inner-page heroes share the page wash). Two adjacent sections never share a wash.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Coloured Light Rule",
+        "body": "Shadows are always violet-tinted and diffuse with negative spread; no neutral grey drop shadows, no hard offsets.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep the ground at Void (#050208) and build depth with glow washes, glass cards and violet-tinted shadows.",
+      "**Do** give every new section its own radial wash and open it with the violet-to-green hairline divider.",
+      "**Do** set display and section headings uppercase Inter 700 with the accent phrase in solid Lavender (#d4c8ef).",
+      "**Do** present every purchasable plan as a plan card with the vCPU / RAM / NVMe spec strip, an AU$ tabular price and a status pill.",
+      "**Do** caption any product mock with figures that are not live as illustrative.",
+      "**Do** keep JetBrains Mono for literal code, terminal and machine identifiers.",
+      "**Do** respect reduced motion: marquees, caret, pulse dot and grid swap stop; hover lifts flatten."
+    ],
+    "donts": [
+      "**Don't** use gradient text anywhere except the single home-hero word \"hosting\".",
+      "**Don't** use amber for anything other than out-of-stock, planned / coming-soon and warning figures, or green for anything other than available, completed and success.",
+      "**Don't** invent proof: no star ratings, customer counts, testimonials or logos the business cannot back.",
+      "**Don't** reintroduce the rejected festival world: no condensed display face, square corners or cyan / magenta projector colours.",
+      "**Don't** drift toward a light, white SaaS template.",
+      "**Don't** let two adjacent sections share a wash."
+    ]
+  }
+}

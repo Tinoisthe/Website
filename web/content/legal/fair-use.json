@@ -1,0 +1,815 @@
+{
+ "slug": "fair-use",
+ "title": "Fair Use Policy",
+ "volume": "Legal // Vol. 03",
+ "intro": "This policy governs the use of Neon Next Generation's infrastructure, including VPS, Web Hosting, Proxy, and VPN services. It applies to all users worldwide, regardless of location or jurisdiction.",
+ "preface": "By using Neon Next Generation's Services, you agree to comply with this Fair Use Policy, our <a href=\"/legal/terms\">Terms of Service</a>, and our <a href=\"/legal/privacy\">Privacy Policy</a>, all of which are incorporated by reference. This Policy applies globally to all users regardless of location, nationality, or jurisdiction. Where your local mandatory law provides rights beyond what is stated here, those rights are preserved.",
+ "version": "1.2",
+ "effective": "July 18, 2026",
+ "sections": [
+  {
+   "id": "scope-application",
+   "title": "Scope & Global Application",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This Fair Use Policy (\"Policy\") governs the use of all services provided by Neon Next Generation PTY LTD (\"Neon,\" \"we,\" \"us,\" \"our\"), including VPS, Web Hosting, Proxy, VPN, and any related infrastructure services (collectively, \"Services\")."
+    },
+    {
+     "type": "p",
+     "html": "This Policy applies to all customers, users, resellers, and end users worldwide, regardless of location, nationality, or jurisdiction. It forms part of and must be read alongside our:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<a href=\"/legal/terms\">Terms of Service</a>",
+      "<a href=\"/legal/privacy\">Privacy Policy</a>"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Where your local mandatory law provides rights that exceed what is stated in this Policy, those rights apply in addition to this Policy and are not waived. If any provision of this Policy is unenforceable in your jurisdiction, it shall be modified to the minimum extent necessary, or severed, without affecting the remainder of this Policy."
+    }
+   ]
+  },
+  {
+   "id": "acceptable-use",
+   "title": "Acceptable Use",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Our Services may only be used for lawful purposes. You MAY use our Services to:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Host websites, applications, and databases for legitimate business or personal use.",
+      "Run authorised VPN or proxy services for lawful personal or commercial use.",
+      "Deploy software applications within the resource limits of your plan.",
+      "Store and transmit data lawfully in accordance with all applicable laws.",
+      "Conduct authorised penetration testing on systems you own or have written permission to test."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "All use of our Services must comply with the laws of Australia (our place of incorporation), the laws of your jurisdiction, and any applicable international laws and conventions. Where your jurisdiction imposes additional restrictions on acceptable use, those restrictions apply to your use of our Services."
+    }
+   ]
+  },
+  {
+   "id": "performance-resource",
+   "title": "Performance & Resource Allocation",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation provides high-performance infrastructure designed for enterprise-level stability, flexibility, and reliability. Resource usage rules depend on the service type purchased."
+    },
+    {
+     "type": "p",
+     "html": "We reserve the right to monitor aggregate resource usage to ensure platform stability for all customers. Where usage patterns are found to negatively impact other users or our infrastructure, we will contact the responsible customer and may implement temporary throttling pending resolution. All monitoring is conducted in accordance with our <a href=\"/legal/privacy\">Privacy Policy</a>."
+    }
+   ]
+  },
+  {
+   "id": "vps-services",
+   "title": "VPS Services",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Dedicated Resource Isolation"
+    },
+    {
+     "type": "p",
+     "html": "VPS services use hardware-level virtualisation to ensure CPU cores, RAM, and storage allocation are isolated to your virtual machine. Resources are not shared with other customers on the same host beyond the defined hypervisor allocation."
+    },
+    {
+     "type": "h3",
+     "text": "100% Resource Guarantee"
+    },
+    {
+     "type": "p",
+     "html": "Customers using VPS services are permitted to utilise 100% of their allocated CPU and RAM at all times. Neon does not throttle VPS resources provided that:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Usage remains within the purchased plan limits.",
+      "Activity complies with this Policy and our Terms of Service.",
+      "Workloads do not attempt to exploit or destabilise host infrastructure."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Dedicated IP Allocation"
+    },
+    {
+     "type": "p",
+     "html": "All VPS services include dedicated IPv4 and/or IPv6 addresses. This means:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Each VPS receives its own unique IP address(es).",
+      "IPs are not shared between customers.",
+      "Customers are responsible for all traffic originating from their assigned IPs, including traffic routed through any hosted software."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Backups"
+    },
+    {
+     "type": "p",
+     "html": "All VPS plans include dedicated weekly automated backups. You may also perform manual backups at any time via your account dashboard. Customers are encouraged to maintain their own independent backups. Neon is not liable for data loss resulting from hardware failure, customer action, policy violations, or service suspension."
+    }
+   ]
+  },
+  {
+   "id": "shared-hosting",
+   "title": "Shared Web Hosting",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Shared hosting operates on shared infrastructure where resources — including CPU, RAM, and disk I/O — are distributed among multiple customers. To ensure equitable access for all:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "CPU and resource usage must remain reasonable and consistent with shared environments.",
+      "Excessive or sustained resource consumption may be throttled without prior notice.",
+      "Customers may be required to upgrade to VPS if workloads consistently exceed shared limits."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Workloads Unsuitable for Shared Hosting"
+    },
+    {
+     "type": "p",
+     "html": "The following are examples of workloads that exceed shared hosting limits and will require VPS migration:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "High-traffic applications or platforms receiving sustained heavy traffic.",
+      "Continuous background processing systems (e.g. persistent cron jobs, video encoding).",
+      "Compute-heavy workloads (e.g. data processing, machine learning inference).",
+      "Any cryptocurrency mining or proof-of-work computations."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-bandwidth",
+   "title": "Network Bandwidth",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon infrastructure provides high-performance network connectivity. Network speeds are structured as follows:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Tier",
+       "Speed"
+      ],
+      [
+       "Base Speed",
+       "1 Gbps — guaranteed for all plans"
+      ],
+      [
+       "Burst Capability",
+       "Up to 10 Gbps during low network utilisation — not guaranteed"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Burst speeds are not guaranteed and depend on:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Datacentre capacity at the time of use.",
+      "Network congestion across the infrastructure.",
+      "Node-level traffic load from other customers."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Customers may not generate traffic intended to degrade network performance, saturate shared network links, or disrupt other services. Any traffic that adversely impacts the network may be rate-limited or blocked without prior notice."
+    }
+   ]
+  },
+  {
+   "id": "hardware-integrity",
+   "title": "Hardware Integrity & Longevity",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon must protect the long-term stability of its infrastructure and storage systems to ensure reliable service for all customers."
+    },
+    {
+     "type": "h3",
+     "text": "Cryptocurrency Mining"
+    },
+    {
+     "type": "p",
+     "html": "The use of Neon Services for Proof-of-Work cryptocurrency mining is strictly prohibited on all plans, including VPS. These workloads cause sustained hardware stress, excessive disk wear, and elevated thermal output incompatible with shared and virtualised infrastructure. Detection of mining activity will result in immediate suspension without refund."
+    },
+    {
+     "type": "h3",
+     "text": "Hypervisor Safety"
+    },
+    {
+     "type": "p",
+     "html": "Any attempt to interfere with or exploit virtualisation systems is prohibited, including:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Hypervisor escape attempts or container breakout exploits.",
+      "Side-channel attacks targeting other virtual machines on the same host.",
+      "Deliberate resource starvation or \"noisy neighbour\" abuse.",
+      "Attempts to access or manipulate the host operating system or other VMs."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Disk I/O Abuse"
+    },
+    {
+     "type": "p",
+     "html": "Workloads generating extreme sustained disk I/O that negatively impact other customers may be restricted. Neon may require:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Workload optimisation within a specified timeframe.",
+      "Migration to a dedicated storage solution.",
+      "Service plan adjustment to a higher tier."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-proxy",
+   "title": "Network & Proxy Standards",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation permits and supports the operation of VPN and proxy services for lawful purposes. Operation of such services is subject to the following standards."
+    },
+    {
+     "type": "h3",
+     "text": "Traffic Responsibility"
+    },
+    {
+     "type": "p",
+     "html": "Customers are fully responsible for all traffic originating from their VPS IPs, including traffic routed through proxy or VPN software hosted on our infrastructure. This responsibility extends to end users of any service you operate on our platform."
+    },
+    {
+     "type": "h3",
+     "text": "Abuse Response Timeframes"
+    },
+    {
+     "type": "p",
+     "html": "If a service is flagged for malicious activity — including botnet traffic, brute-force attempts, or abuse reports from third parties — the customer must:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Acknowledge the notification within <strong>4 hours</strong> of receipt.",
+      "Mitigate the issue within <strong>12 hours</strong> of notification.",
+      "Provide a written summary of the cause and remediation steps taken."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Failure to respond within these timeframes may result in immediate service suspension."
+    },
+    {
+     "type": "h3",
+     "text": "IP Reputation Protection"
+    },
+    {
+     "type": "p",
+     "html": "If customer activity results in Neon IP addresses being listed on abuse blacklists or RBLs:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Investigation and remediation may be required at the customer's expense of effort.",
+      "Services may be suspended until the IP reputation is restored.",
+      "Repeat or severe cases may require service migration, IP reassignment, or restriction."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Open Proxy Risk"
+    },
+    {
+     "type": "p",
+     "html": "Public or unauthenticated open proxies are strongly discouraged due to high abuse potential. Customers running proxy services should implement at minimum:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Authentication systems to restrict access to authorised users.",
+      "Rate limiting to prevent abuse of the service.",
+      "Abuse monitoring and alerting tools.",
+      "Connection logging where permitted by applicable law."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Tor Exit Nodes"
+    },
+    {
+     "type": "p",
+     "html": "The operation of Tor exit nodes on Neon infrastructure is prohibited. Tor relay nodes (non-exit) may be permitted on a case-by-case basis with prior written approval. Contact <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> to discuss."
+    }
+   ]
+  },
+  {
+   "id": "security-compromised",
+   "title": "Security & Compromised Systems",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Customers are responsible for securing all systems deployed on Neon infrastructure. Security obligations include:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Keeping all software, operating systems, and packages updated with security patches.",
+      "Using firewalls and appropriate security controls to limit exposure.",
+      "Protecting credentials and API keys from unauthorised disclosure.",
+      "Disabling or removing unused services and open ports.",
+      "Implementing access controls and authentication on all exposed services."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Compromised System Response"
+    },
+    {
+     "type": "p",
+     "html": "If a VPS or service is found to be compromised or is actively participating in malicious activity (e.g., sending spam, participating in a botnet, or being used as a DDoS amplifier), Neon may temporarily suspend the service immediately to protect network stability and other customers. You will be notified as soon as practicable. Restoration of service is contingent on demonstration that the compromise has been resolved."
+    },
+    {
+     "type": "h3",
+     "text": "Authorised Security Testing"
+    },
+    {
+     "type": "p",
+     "html": "Penetration testing and vulnerability scanning is permitted only on systems you own or have written authorisation to test. Any security testing that targets Neon infrastructure, other customers' systems, or third-party services without authorisation is strictly prohibited and will result in immediate termination."
+    }
+   ]
+  },
+  {
+   "id": "strict-prohibitions",
+   "title": "Strict Prohibitions (Zero Tolerance)",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "⚠ The following activities will result in immediate termination without refund and may be reported to relevant law enforcement authorities."
+    },
+    {
+     "type": "h3",
+     "text": "Illegal Content"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Hosting, distributing, or storing Child Sexual Abuse Material (CSAM) or any content that sexually exploits minors. Such activity will be reported to relevant law enforcement and NCMEC.",
+      "Hosting any content that is illegal under applicable law in Australia or the customer's jurisdiction.",
+      "Facilitating fraud, identity theft, or financial crimes."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Malicious Infrastructure"
+    },
+    {
+     "type": "p",
+     "html": "Services may not be used for:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Botnet command and control (C2) infrastructure.",
+      "Malware, ransomware, or spyware distribution or hosting.",
+      "Phishing pages, scam platforms, or fraudulent storefronts.",
+      "Credential harvesting, keylogging, or data exfiltration systems.",
+      "Exploit kits or vulnerability scanning tools used against unauthorised targets."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Network Attacks"
+    },
+    {
+     "type": "p",
+     "html": "Using Neon infrastructure to attack other systems is prohibited, including:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "DDoS attacks or amplification attacks against any target.",
+      "Unauthorised port scanning or network probing of third-party systems.",
+      "Brute-force login attempts against any system you do not own.",
+      "Man-in-the-middle attacks or traffic interception."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Spam & Unsolicited Communications"
+    },
+    {
+     "type": "p",
+     "html": "Sending unsolicited bulk email (spam) is strictly prohibited. All email marketing sent through our infrastructure must:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Use double opt-in consent confirmation for all mailing lists.",
+      "Include a clear and functional unsubscribe mechanism in every communication.",
+      "Comply with all applicable anti-spam laws (including Australia's Spam Act 2003, CAN-SPAM, CASL, and equivalent laws in your jurisdiction).",
+      "Not use harvested, purchased, or scraped email lists."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cryptocurrency Mining"
+    },
+    {
+     "type": "p",
+     "html": "Proof-of-Work cryptocurrency mining is strictly prohibited on all Neon service tiers. This includes but is not limited to mining of Bitcoin, Monero, Ethereum Classic, or any other PoW cryptocurrency. Detection of mining activity will result in immediate termination without refund."
+    }
+   ]
+  },
+  {
+   "id": "content-standards",
+   "title": "Content Standards",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "All content hosted on or transmitted through Neon infrastructure must comply with applicable law. The following content standards apply globally to all customers."
+    },
+    {
+     "type": "h3",
+     "text": "Prohibited Content"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Child sexual abuse material (CSAM) or any content sexually exploiting minors.",
+      "Content that incites violence, terrorism, or hatred based on protected characteristics.",
+      "Content that infringes the intellectual property rights of any third party.",
+      "Content that is defamatory, fraudulent, or constitutes unlawful harassment.",
+      "Content that violates any applicable law in Australia or the customer's jurisdiction."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Adult Content"
+    },
+    {
+     "type": "p",
+     "html": "Adult content (18+) is permitted on VPS plans only where: (a) it is legal in the customer's jurisdiction and in Australia; (b) proper age verification is implemented for end users; (c) it does not involve minors in any form. Adult content is not permitted on shared hosting plans. Neon reserves the right to request evidence of legal compliance at any time."
+    },
+    {
+     "type": "h3",
+     "text": "AI-Generated Content"
+    },
+    {
+     "type": "p",
+     "html": "AI-generated content hosted on our infrastructure is subject to the same content standards as all other content. You may not use our Services to train AI or machine learning models on content you do not own or have rights to use for that purpose."
+    }
+   ]
+  },
+  {
+   "id": "intellectual-property",
+   "title": "Intellectual Property & DMCA",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We respect the intellectual property rights of others and require our customers to do the same. You must not host, distribute, or transmit content that infringes any copyright, trademark, patent, trade secret, or other intellectual property right of any person or entity."
+    },
+    {
+     "type": "h3",
+     "text": "DMCA Notices"
+    },
+    {
+     "type": "p",
+     "html": "If you believe content hosted on our infrastructure infringes your copyright, please submit a DMCA notice to our designated agent. Your notice must include:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Identification of the copyrighted work claimed to have been infringed.",
+      "The specific URL or location of the allegedly infringing material.",
+      "Your contact details (name and email address).",
+      "A statement of good faith belief that the use is not authorised.",
+      "A statement, under penalty of perjury, that the information is accurate and you are authorised to act.",
+      "Your physical or electronic signature."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Submit DMCA notices to: <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>. Customers who repeatedly infringe intellectual property rights will have their accounts terminated."
+    }
+   ]
+  },
+  {
+   "id": "data-privacy",
+   "title": "Data & Privacy",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon operates as a neutral infrastructure provider. We do not routinely monitor the content of customer data. However, customers are solely responsible for ensuring that any personal data processed through our infrastructure complies with applicable data protection and privacy laws in their jurisdiction and in Australia."
+    },
+    {
+     "type": "h3",
+     "text": "Customer Obligations"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Where you process personal data of third parties through our Services, you are the data controller and are responsible for having a lawful basis for that processing.",
+      "You must comply with all applicable data protection laws, including but not limited to the Australian Privacy Act 1988, GDPR (where applicable to your end users), and any other relevant legislation.",
+      "You must implement appropriate security measures to protect personal data stored or processed on our infrastructure.",
+      "You must not collect, store, or process personal data in a manner that violates applicable privacy laws or individuals' rights."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "For information about how Neon handles your own personal data as a customer, see our <a href=\"/legal/privacy\">Privacy Policy</a>."
+    }
+   ]
+  },
+  {
+   "id": "legal-liability",
+   "title": "Legal & Liability",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Data Responsibility"
+    },
+    {
+     "type": "p",
+     "html": "Neon operates as a neutral infrastructure provider and does not monitor customer content. Customers are solely responsible for the content they host, the data they store, and the activities they conduct using our Services. Customers are responsible for maintaining independent backups of all data. Neon is not liable for data loss resulting from service suspension, hardware failure, policy violations, or any other cause."
+    },
+    {
+     "type": "h3",
+     "text": "Indemnification"
+    },
+    {
+     "type": "p",
+     "html": "Customers agree to defend, indemnify, and hold harmless Neon Next Generation PTY LTD and its officers, directors, employees, and contractors from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising from:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Their use of our Services.",
+      "Content hosted on our infrastructure.",
+      "Actions of their end users.",
+      "Breach of this Policy, the Terms of Service, or any applicable law."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "This indemnification applies only to the extent permitted by the mandatory laws of your jurisdiction."
+    },
+    {
+     "type": "h3",
+     "text": "Limitation of Liability"
+    },
+    {
+     "type": "p",
+     "html": "To the maximum extent permitted by applicable law, Neon's total aggregate liability to a customer for any claim arising under or in connection with this Policy or the use of our Services shall not exceed the amount paid by the customer in the 3 months preceding the claim. Nothing in this clause limits liability that cannot be excluded under applicable mandatory law, including Australian Consumer Law statutory guarantees."
+    },
+    {
+     "type": "h3",
+     "text": "Legal Compliance"
+    },
+    {
+     "type": "p",
+     "html": "Neon complies with valid legal requests from authorities, including subpoenas, court orders, and law enforcement warrants, in accordance with applicable law and our Privacy Policy. Where permitted by law, we will notify affected customers of such requests before compliance. Copyright claims are handled under our DMCA process — see Section 12."
+    },
+    {
+     "type": "h3",
+     "text": "Global Consumer Rights"
+    },
+    {
+     "type": "p",
+     "html": "Nothing in this Policy limits any mandatory rights you have under the consumer protection laws of your jurisdiction. Users in jurisdictions with statutory consumer protection rights (including Australian Consumer Law, EU consumer law, UK Consumer Rights Act, and equivalent laws) retain those rights regardless of the provisions of this Policy."
+    }
+   ]
+  },
+  {
+   "id": "enforcement",
+   "title": "Enforcement & Appeals",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Violations of this Policy may result in the following enforcement actions, applied at Neon's sole discretion depending on the severity of the violation:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Written Warning",
+       "Minor or first-time violations with no material impact."
+      ],
+      [
+       "Traffic Restriction",
+       "Resource or network abuse affecting platform performance."
+      ],
+      [
+       "Temporary Suspension",
+       "Moderate violations or failure to resolve abuse within the required timeframe."
+      ],
+      [
+       "Permanent Termination",
+       "Severe, repeated, or zero-tolerance violations. No refund."
+      ],
+      [
+       "Legal Referral",
+       "Violations involving illegal content, law enforcement cooperation, or criminal activity."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Appeals Process"
+    },
+    {
+     "type": "p",
+     "html": "If you believe enforcement action was taken against your account in error, you may appeal within 14 days of the action by contacting <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> with the subject line \"Fair Use Policy Appeal — [Your Account ID].\" Your appeal should include:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "A description of the enforcement action taken.",
+      "Your explanation of why the action was in error.",
+      "Any supporting evidence."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We will review all appeals and respond within 5 business days. Our determination on appeal shall be final. Appeals are not available for zero-tolerance violations involving illegal content."
+    }
+   ]
+  },
+  {
+   "id": "reporting-violations",
+   "title": "Reporting Violations",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If you become aware of any violation of this Policy occurring on our infrastructure, please report it to us promptly. We take all abuse reports seriously and investigate them thoroughly."
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "General Abuse",
+       "contact@neonnextgeneration.com Subject: \"Abuse Report\""
+      ],
+      [
+       "DMCA / Copyright",
+       "dmca@neonnextgeneration.com Subject: \"DMCA Notice\""
+      ],
+      [
+       "Privacy / Data",
+       "privacy@neonnextgeneration.com Subject: \"Privacy Concern\""
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Please include the IP address, URL, or other identifying information about the alleged violation and any supporting evidence. We will acknowledge your report within 2 business days and will not retaliate against good-faith reporters."
+    }
+   ]
+  },
+  {
+   "id": "reseller-obligations",
+   "title": "Reseller Obligations",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Customers who resell or white-label Neon Services to third parties (\"Resellers\") are subject to additional obligations under this Policy and the <a href=\"/legal/terms#reseller-terms\">Terms of Service, Section 29</a>."
+    },
+    {
+     "type": "list",
+     "items": [
+      "Resellers must ensure their end customers comply with this Fair Use Policy in full.",
+      "Resellers are responsible for all activity conducted by their end customers on Neon infrastructure.",
+      "Resellers must have their own abuse reporting and response process for their end customers.",
+      "Resellers must respond to abuse notifications from Neon within the timeframes specified in Section 8.",
+      "Neon is not liable for claims arising between a Reseller and their end customers. Resellers indemnify Neon against any such claims."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Reselling Neon Services without a written Reseller Agreement is strictly prohibited. Contact <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> to enquire about reseller arrangements."
+    }
+   ]
+  },
+  {
+   "id": "policy-updates",
+   "title": "Policy Updates",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation may update this Fair Use Policy at any time. When we do:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The revised Policy will be posted with an updated version number and effective date.",
+      "For material changes, we will notify customers via email or prominent notice at least 14 days before the change takes effect.",
+      "Where a material change adversely affects your rights and local law requires it, you may terminate your account without penalty before the change takes effect.",
+      "Continued use of our Services after the effective date constitutes acceptance of the updated Policy."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Version History"
+    },
+    {
+     "type": "list",
+     "items": [
+      "v1.1 · May 2, 2026 — Added Scope &amp; Global Application, Acceptable Use, Content Standards, Intellectual Property &amp; DMCA, Data &amp; Privacy, Reseller Obligations, Reporting Violations sections. Added enforcement table, appeals process, abuse response timeframes. Aligned with TOS and Privacy Policy. PHP-driven TOC. Updated all contact emails.",
+      "v1.0 · May 2, 2026 — Initial Fair Use Policy."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact-information",
+   "title": "Contact Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation PTY LTD operates as a digital-first organisation. We do not maintain physical walk-in locations or telephone support. For all Fair Use Policy related enquiries, please contact the appropriate department:"
+    },
+    {
+     "type": "h3",
+     "text": "Policy & Abuse"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General &amp; Legal</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>DMCA &amp; Copyright</strong> <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Privacy &amp; Data</strong> <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "h3",
+     "text": "Billing & Other"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Billing &amp; Refunds</strong> <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Inquiries</strong> <a href=\"mailto:info@neonnextgeneration.com\">info@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Advertising</strong> <a href=\"mailto:ads@neonnextgeneration.com\">ads@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Neon Next Generation PTY LTD</strong> | ABN: 86 686 080 704"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/terms\">Terms of Service</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/privacy\">Privacy Policy</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://neonnextgeneration.com\">neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "We aim to respond to all policy-related enquiries within 2 business days and abuse reports within 24 hours."
+    }
+   ]
+  }
+ ]
+}

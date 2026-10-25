@@ -1,0 +1,746 @@
+{
+ "slug": "terms",
+ "title": "Terms and Conditions",
+ "volume": "Legal // Vol. 01",
+ "intro": "By accessing or using any part of our websites, platforms, applications, or services (collectively, the \"Services\"), you agree to be bound by these Terms and Conditions. These Terms apply to all users worldwide, regardless of location, nationality, or jurisdiction. Where your local law grants you rights beyond what is stated here, those rights are preserved and are not waived by these Terms.",
+ "preface": "By accessing or using any part of our websites, platforms, applications, or services (collectively, the \"Services\"), you agree to be bound by these Terms and Conditions, our <a href=\"/legal/privacy\">Privacy Policy</a>, and our <a href=\"/legal/fair-use\">Fair Use Policy</a>, all incorporated herein by reference. These Terms apply globally to all users regardless of location, nationality, or jurisdiction. Where your local law grants you rights beyond what is stated here, those rights are preserved and are not waived. If you do not agree, please discontinue use of our Services immediately.",
+ "version": "2.2",
+ "effective": "July 18, 2026",
+ "sections": [
+  {
+   "id": "definitions",
+   "title": "Definitions",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The following definitions apply throughout these Terms:"
+    },
+    {
+     "type": "p",
+     "html": "\"Content\" means all text, images, graphics, audio, video, software, data, and other materials displayed on or available through the Site."
+    },
+    {
+     "type": "p",
+     "html": "\"User\" means any individual or entity that accesses or uses the Site, regardless of geographic location or jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "\"User Content\" means any content submitted, posted, or transmitted by a User through the Site."
+    },
+    {
+     "type": "p",
+     "html": "\"Services\" means all features, tools, applications, and functionalities provided through the Site."
+    },
+    {
+     "type": "p",
+     "html": "\"Policies\" collectively refers to these Terms, the <a href=\"/legal/privacy\">Privacy Policy</a>, and the <a href=\"/legal/fair-use\">Fair Use Policy</a>."
+    },
+    {
+     "type": "p",
+     "html": "\"Applicable Law\" means any law, regulation, or legal requirement that applies to you based on where you are located or where you access the Site, as well as the laws of New South Wales, Australia."
+    },
+    {
+     "type": "p",
+     "html": "\"Processing\" means any operation performed on personal data, including collection, storage, use, disclosure, or deletion."
+    },
+    {
+     "type": "p",
+     "html": "\"Sensitive Personal Information\" means data such as health information, biometric data, racial or ethnic origin, political opinions, religious beliefs, financial data, sexual orientation, or government-issued identifiers."
+    }
+   ]
+  },
+  {
+   "id": "global-application",
+   "title": "Global Application",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "2.1 These Terms are intended to apply to all users worldwide. They have been drafted to be compatible with the legal frameworks of jurisdictions globally, including but not limited to data protection laws, consumer protection laws, and digital services regulations wherever you may be located."
+    },
+    {
+     "type": "p",
+     "html": "2.2 Where your local mandatory law provides rights that exceed what is stated in these Terms, those local rights apply in addition to these Terms and are not waived."
+    },
+    {
+     "type": "p",
+     "html": "2.3 Nothing in these Terms limits any rights you hold under the mandatory consumer protection, data protection, or digital services laws of your country or region."
+    },
+    {
+     "type": "p",
+     "html": "2.4 If a provision of these Terms is unenforceable in your jurisdiction, that provision shall be modified to the minimum extent necessary to comply, or severed, without affecting the remainder of these Terms."
+    },
+    {
+     "type": "p",
+     "html": "2.5 We comply with applicable global legal frameworks to the best of our ability. If you have questions about your specific rights in your jurisdiction, contact us at <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>."
+    }
+   ]
+  },
+  {
+   "id": "eligibility",
+   "title": "Eligibility",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "3.1 Minimum Age"
+    },
+    {
+     "type": "p",
+     "html": "You must meet the minimum age of digital consent required by the laws of your country or jurisdiction to use this Site. Where no specific age is prescribed locally, you must be at least 16 years of age. Certain services may require users to be at least 18 years old, as indicated at the point of access."
+    },
+    {
+     "type": "h3",
+     "text": "3.2 Underage Use"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)You may not use the Site without verifiable parental or legal guardian consent where your local law permits supervised use.",
+      "(b)If we discover underage use without proper consent, we will terminate the account and delete associated data promptly."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3.3 Parental Consent"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)We do not knowingly allow minors below the minimum age to register or use the Site.",
+      "(b)Parents or guardians may contact us at <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a> to review or request deletion of a minor's data."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3.4 Representations"
+    },
+    {
+     "type": "p",
+     "html": "By using the Site, you represent and warrant that:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)You meet the minimum age requirement of your jurisdiction.",
+      "(b)You have the legal capacity to enter into binding agreements under your local law.",
+      "(c)Your use of the Site does not violate any law or regulation applicable to you."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "3.5 Sanctions & Restricted Regions"
+    },
+    {
+     "type": "p",
+     "html": "The Site is not available to users in countries or regions subject to applicable trade sanctions or export controls. By using the Site, you confirm you are not located in or a national of any such sanctioned region."
+    }
+   ]
+  },
+  {
+   "id": "account-registration",
+   "title": "Account Registration & Security",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "4.1 Registration Obligations"
+    },
+    {
+     "type": "p",
+     "html": "Some features require an account. You agree to:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Provide accurate, current, and complete information at registration and keep it up to date.",
+      "(b)Maintain and promptly update your information.",
+      "(c)Keep your credentials secure and confidential.",
+      "(d)Accept full responsibility for all activity under your account."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "4.2 You must notify us immediately at <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> upon suspecting unauthorised access to your account."
+    },
+    {
+     "type": "p",
+     "html": "4.3 We will never request your password via email, phone, or chat. Accounts may be suspended for prolonged inactivity, non-compliance with these Terms, or suspected fraudulent activity. Sharing account credentials is strictly prohibited without our express written consent."
+    },
+    {
+     "type": "p",
+     "html": "4.4 Account data is handled per our <a href=\"/legal/privacy\">Privacy Policy</a>, Section 2."
+    }
+   ]
+  },
+  {
+   "id": "acceptable-use",
+   "title": "Acceptable Use",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "5.1 You agree NOT to engage in any of the following:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Use the Site for any purpose that violates Applicable Law in any jurisdiction.",
+      "(b)Attempt to gain unauthorised access to the Site, servers, databases, or connected systems, or bypass any security or authentication measures.",
+      "(c)Introduce malware, viruses, ransomware, or any harmful code, or conduct denial-of-service attacks.",
+      "(d)Scrape, crawl, or use automated tools to extract data without prior written consent.",
+      "(e)Impersonate any person or entity, submit false information, or engage in deceptive conduct.",
+      "(f)Harass, abuse, threaten, intimidate, or discriminate against any person.",
+      "(g)Infringe upon any intellectual property, privacy, or other rights of any party globally.",
+      "(h)Collect or harvest personal data of other users without their consent.",
+      "(i)Use the Site for unauthorised commercial solicitation, spam, or pyramid schemes.",
+      "(j)Reverse-engineer, disassemble, or decompile any part of the Site.",
+      "(k)Use our Services to train artificial intelligence or machine learning models without express written permission.",
+      "(l)Store or distribute child sexual abuse material or any content that exploits minors.",
+      "(m)Run Tor exit nodes or use our infrastructure for cryptocurrency mining without prior written consent."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "5.2 Additional restrictions are set out in our <a href=\"/legal/fair-use\">Fair Use Policy</a>. Violations may result in immediate termination per Section 13."
+    },
+    {
+     "type": "p",
+     "html": "5.3 Where your jurisdiction imposes additional content or conduct restrictions, those restrictions apply to your use of the Site."
+    }
+   ]
+  },
+  {
+   "id": "intellectual-property",
+   "title": "Intellectual Property",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "6.1 All Content is owned by or licensed to Neon Next Generation PTY LTD and is protected under applicable intellectual property laws globally, including international copyright treaties and conventions such as the Berne Convention and the WIPO Copyright Treaty."
+    },
+    {
+     "type": "p",
+     "html": "6.2 You are granted a limited, non-exclusive, non-transferable, revocable, worldwide licence to access and use the Site for personal, non-commercial purposes only, subject to these Terms and our <a href=\"/legal/fair-use\">Fair Use Policy</a>."
+    },
+    {
+     "type": "p",
+     "html": "6.3 All trademarks, service marks, and trade names are the property of Neon Next Generation PTY LTD or respective licensors. You may not use them without prior written consent."
+    },
+    {
+     "type": "p",
+     "html": "6.4 For copyright infringement notices, contact our designated DMCA agent at <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>. See our <a href=\"/legal/dmca\">DMCA &amp; Copyright Policy</a>."
+    }
+   ]
+  },
+  {
+   "id": "user-content",
+   "title": "User-Generated Content",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "7.1 By submitting User Content, you grant us a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, sublicensable licence to use, reproduce, modify, adapt, publish, translate, distribute, and display such content in connection with the Site and our operations."
+    },
+    {
+     "type": "p",
+     "html": "7.2 You represent and warrant that:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)You own or have all necessary rights to submit the content.",
+      "(b)The content does not violate any third-party rights in any jurisdiction.",
+      "(c)The content complies with all applicable laws globally."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "7.3 We reserve the right to remove User Content that violates these Terms, our <a href=\"/legal/fair-use\">Fair Use Policy</a>, or Applicable Law, without prior notice."
+    },
+    {
+     "type": "p",
+     "html": "7.4 Personal data within User Content is handled per our <a href=\"/legal/privacy\">Privacy Policy</a>. We do not endorse or assume liability for any User Content. All content is submitted at the user's own risk."
+    }
+   ]
+  },
+  {
+   "id": "third-party-services",
+   "title": "Third-Party Links & Services",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "8.1 The Site may contain links to third-party websites or services not owned or controlled by us."
+    },
+    {
+     "type": "p",
+     "html": "8.2 We are not responsible for the content, privacy practices, or terms of any third-party site or service."
+    },
+    {
+     "type": "p",
+     "html": "8.3 Your use of third-party services is at your own risk and governed by their respective terms and policies."
+    },
+    {
+     "type": "p",
+     "html": "8.4 Data shared with third parties is handled per our <a href=\"/legal/privacy\">Privacy Policy</a>, Section 5."
+    }
+   ]
+  },
+  {
+   "id": "purchases-payments",
+   "title": "Purchases, Payments & Refunds",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "9.1 Currency & Pricing"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Prices are displayed in USD unless otherwise stated.",
+      "(b)You are responsible for any taxes, duties, or levies applicable in your jurisdiction.",
+      "(c)Where required by local law, prices will include all mandatory taxes."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "9.2 Payment"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Payment must be made via our approved processors.",
+      "(b)You must provide accurate billing information.",
+      "(c)We do not store full payment card data on our servers."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "9.3 Refunds"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Refund requests must be submitted to <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a> within 14 days of purchase for digital products, or 30 days for physical products.",
+      "(b)Where your local consumer law provides greater refund rights, those rights apply.",
+      "(c)We reserve the right to deny refunds for abuse of this policy."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "9.4 Subscriptions"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Subscriptions renew automatically unless cancelled before the renewal date.",
+      "(b)Where local law provides a cancellation or cooling-off right, that right applies."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "service-availability",
+   "title": "Service Availability & Modifications",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "10.1 We strive to maintain Site availability but do not guarantee uninterrupted or error-free access."
+    },
+    {
+     "type": "p",
+     "html": "10.2 We reserve the right to modify, suspend, or discontinue any part of the Site at any time. Where a change materially affects your use, we will provide at least 30 days' written notice where feasible."
+    },
+    {
+     "type": "p",
+     "html": "10.3 Where required by local law, we will provide advance notice of material changes that adversely affect your access or use. You may terminate your account without penalty before a material change takes effect."
+    },
+    {
+     "type": "p",
+     "html": "10.4 We shall not be liable for service interruptions, subject to mandatory consumer protection laws in your jurisdiction."
+    }
+   ]
+  },
+  {
+   "id": "disclaimers-liability",
+   "title": "Disclaimers & Limitation of Liability",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "11.1 THE SITE AND ALL CONTENT ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW."
+    },
+    {
+     "type": "p",
+     "html": "11.2 NOTHING IN THESE TERMS EXCLUDES OR LIMITS OUR LIABILITY FOR:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Death or personal injury caused by our negligence.",
+      "(b)Fraud or fraudulent misrepresentation.",
+      "(c)Any liability that cannot be excluded or limited under the mandatory laws of your jurisdiction, including statutory consumer protection rights that apply to you globally."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "11.3 SUBJECT TO SECTION 11.2, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, REVENUE, OR GOODWILL."
+    },
+    {
+     "type": "p",
+     "html": "11.4 OUR TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE GREATER OF:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)USD $100.00; OR",
+      "(b)The amount you paid us in the twelve (12) months preceding the claim."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "11.5 Users in jurisdictions with mandatory consumer protection laws retain all statutory rights that cannot be waived by contract. These Terms do not affect those rights."
+    }
+   ]
+  },
+  {
+   "id": "indemnification",
+   "title": "Indemnification",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "12.1 You agree to defend, indemnify, and hold harmless Neon Next Generation PTY LTD and its officers, directors, employees, agents, licensors, and suppliers from and against any claims, liabilities, and expenses (including reasonable attorneys' fees) arising from:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Your use or misuse of the Site.",
+      "(b)Your violation of these Terms or Applicable Law.",
+      "(c)Your violation of any third-party right.",
+      "(d)Any User Content you submit."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "12.2 This indemnification applies only to the extent permitted by the mandatory laws of your jurisdiction and does not override your statutory rights."
+    }
+   ]
+  },
+  {
+   "id": "termination-suspension",
+   "title": "Termination & Suspension",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "13.1 We may terminate or suspend your access immediately, without prior notice, for:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Breach of these Terms.",
+      "(b)Breach of our <a href=\"/legal/fair-use\">Fair Use Policy</a>.",
+      "(c)Conduct we determine to be harmful to the Site, its users, or third parties.",
+      "(d)Violation of Applicable Law."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "13.2 Where required by local law, we will:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Provide advance notice of account suspension where reasonably possible.",
+      "(b)Provide a statement of reasons for content removal or account restriction.",
+      "(c)Offer an internal appeals process — contact <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "13.3 Upon termination:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Your right to use the Site ceases immediately.",
+      "(b)Data will be handled per <a href=\"/legal/privacy\">Privacy Policy</a>, Sections 7 and 8.",
+      "(c)Sections 6, 7, 11, 12, 14, 15, and 16 survive termination."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "13.4 You may terminate your account at any time by contacting <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>. Data deletion will be processed per <a href=\"/legal/privacy\">Privacy Policy</a>, Section 7."
+    }
+   ]
+  },
+  {
+   "id": "governing-law",
+   "title": "Governing Law & Dispute Resolution",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "14.1 Primary Governing Law<br/> These Terms are governed by the laws of New South Wales, Australia, without regard to conflict of law principles."
+    },
+    {
+     "type": "p",
+     "html": "14.2 Global Consumer Rights Preservation<br/> Notwithstanding Section 14.1, if you are a consumer in any jurisdiction, you retain the right to rely on any mandatory provisions of the consumer protection, data protection, or contract laws of your country that cannot be overridden by contract. Nothing in these Terms removes or limits those rights."
+    },
+    {
+     "type": "p",
+     "html": "14.3 Informal Resolution<br/> Before filing any formal claim, contact us at <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> to attempt resolution. We will respond within 30 days."
+    },
+    {
+     "type": "p",
+     "html": "14.4 Binding Arbitration (U.S. Users)<br/>For U.S. users where informal resolution fails:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "(a)Disputes shall be resolved by binding arbitration under AAA Commercial Arbitration Rules.",
+      "(b)Arbitration shall be conducted virtually or at a mutually agreed location.",
+      "(c)<strong>CLASS ACTION WAIVER:</strong> Claims must be brought individually, not in class proceedings."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "14.5 Arbitration Opt-Out (U.S. Users)<br/> You may opt out of arbitration within 30 days of first accepting these Terms by emailing <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a> with the subject line \"Arbitration Opt-Out.\""
+    },
+    {
+     "type": "p",
+     "html": "14.6 Global Alternative Dispute Resolution<br/> Where required by local law or available to you, you may use ADR mechanisms applicable in your jurisdiction. We will cooperate with any such process as required by Applicable Law."
+    },
+    {
+     "type": "p",
+     "html": "14.7 Small Claims<br/> Either party may bring eligible claims in small claims court or local equivalent regardless of the arbitration provision."
+    }
+   ]
+  },
+  {
+   "id": "severability",
+   "title": "Severability",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "15.1 If any provision of these Terms is found unenforceable under Applicable Law, it shall be modified to the minimum extent necessary, or severed, without affecting the remaining provisions."
+    },
+    {
+     "type": "p",
+     "html": "15.2 If the class action waiver in Section 14.4(c) is found unenforceable, the arbitration clause shall be void and disputes shall be resolved in a court of competent jurisdiction."
+    }
+   ]
+  },
+  {
+   "id": "entire-agreement",
+   "title": "Entire Agreement",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "16.1 These Terms, together with the <a href=\"/legal/privacy\">Privacy Policy</a> and <a href=\"/legal/fair-use\">Fair Use Policy</a>, constitute the entire agreement between you and Neon Next Generation PTY LTD regarding your use of the Site and supersede all prior or contemporaneous communications, representations, or agreements."
+    },
+    {
+     "type": "p",
+     "html": "16.2 Any failure to enforce a right or provision shall not constitute a waiver of that right."
+    }
+   ]
+  },
+  {
+   "id": "trial-subscriptions",
+   "title": "Trial Periods & Subscriptions",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Trial accounts provide limited access to our Services for evaluation purposes. Upon expiry of a trial period, access will be suspended unless a paid subscription is activated."
+    },
+    {
+     "type": "p",
+     "html": "Subscription fees, billing cycles, and all applicable payment terms are displayed clearly at checkout before purchase. Prices are shown inclusive of any applicable local taxes where required by law. It is your responsibility to understand the pricing and tax obligations applicable in your jurisdiction."
+    }
+   ]
+  },
+  {
+   "id": "force-majeure",
+   "title": "Force Majeure",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We will not be held liable for any failure or delay resulting from circumstances beyond our reasonable control, including:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Natural disasters, floods, earthquakes, or other acts of nature.",
+      "Acts of war, terrorism, civil unrest, or government actions.",
+      "Widespread internet outages or failures of upstream infrastructure providers.",
+      "Cyberattacks or distributed denial of service attacks by third parties.",
+      "Pandemic, epidemic, or public health emergencies."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We will take reasonable steps to minimise impact and communicate with affected users as soon as practicable."
+    }
+   ]
+  },
+  {
+   "id": "modifications",
+   "title": "Modifications to Services",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We reserve the right to modify, suspend, or discontinue any part of our Services at any time. Where a change materially affects your use, we will provide at least 30 days written notice. Where local law requires it, you may terminate your account without penalty before the change takes effect."
+    },
+    {
+     "type": "p",
+     "html": "If we discontinue a Service you are actively subscribed to, we will offer either a pro-rata refund for the unused portion or migration assistance to an equivalent alternative where available."
+    }
+   ]
+  },
+  {
+   "id": "reseller-terms",
+   "title": "Reseller & White-Label Terms",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If you wish to resell or white-label any of our Services, you must enter into a separate Reseller Agreement with us. Reselling without a written agreement is strictly prohibited. Resellers are responsible for:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ensuring their end customers comply with these Terms and our Acceptable Use Policy.",
+      "Providing first-line support to their own customers.",
+      "Paying all applicable fees regardless of whether their customers pay them.",
+      "Not making representations about our Services beyond what we have agreed in writing."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Neon Next Generation PTY LTD is not liable for any claims arising between a reseller and their end customers. Resellers indemnify us against any such claims."
+    }
+   ]
+  },
+  {
+   "id": "general-provisions",
+   "title": "General Provisions",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Waiver"
+    },
+    {
+     "type": "p",
+     "html": "Our failure to enforce any provision on any occasion does not constitute a waiver of our right to enforce that provision in the future. No waiver is effective unless made in writing and signed by an authorised representative."
+    },
+    {
+     "type": "h3",
+     "text": "Severability"
+    },
+    {
+     "type": "p",
+     "html": "If any provision is found invalid, unlawful, or unenforceable, it will be modified to the minimum extent necessary or severed, without affecting the remaining provisions."
+    },
+    {
+     "type": "h3",
+     "text": "Assignment"
+    },
+    {
+     "type": "p",
+     "html": "You may not assign or transfer your rights or obligations under these Terms without our prior written consent. We may assign our rights to a successor entity in the event of a merger, acquisition, or asset sale, with notice to you."
+    },
+    {
+     "type": "h3",
+     "text": "Entire Agreement"
+    },
+    {
+     "type": "p",
+     "html": "These Terms, together with our <a href=\"/legal/privacy\">Privacy Policy</a> and <a href=\"/legal/fair-use\">Fair Use Policy</a>, constitute the entire agreement between you and Neon Next Generation PTY LTD and supersede all prior communications or agreements."
+    }
+   ]
+  },
+  {
+   "id": "changes-to-terms",
+   "title": "Changes to These Terms",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We may update these Terms at any time. When we do:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Minor changes will be posted with an updated version number and effective date.",
+      "Material changes will be communicated via email or prominent notice at least 30 days before taking effect.",
+      "Where a material change adversely affects your rights and local law requires it, you may terminate your account without penalty before the change takes effect.",
+      "Continued use after the effective date constitutes acceptance of the updated Terms."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Version History"
+    },
+    {
+     "type": "list",
+     "items": [
+      "v2.1 · April 12, 2026 — Added Definitions, Global Application, standalone Acceptable Use, Intellectual Property, User-Generated Content, Third-Party Links, Purchases &amp; Payments, Service Availability, Disclaimers, Indemnification, Severability, Entire Agreement, and Changes sections. Updated all contact emails. Aligned refund windows with global consumer law.",
+      "v2.0 · April 12, 2026 — Revised to global scope. Added AUP, SLA, Force Majeure, Reseller Terms, suspension process, and billing dunning process.",
+      "v1.0 · January 12, 2026 — Initial Terms of Service."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact-information",
+   "title": "Contact Information",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Neon Next Generation PTY LTD operates as a digital-first organisation. We do not maintain physical walk-in locations or telephone support. For all enquiries, please contact the appropriate department below."
+    },
+    {
+     "type": "h3",
+     "text": "General & Legal"
+    },
+    {
+     "type": "p",
+     "html": "<strong>General Inquiries</strong> <a href=\"mailto:info@neonnextgeneration.com\">info@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Legal / Contracts</strong> <a href=\"mailto:contact@neonnextgeneration.com\">contact@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>DMCA &amp; Copyright</strong> <a href=\"mailto:dmca@neonnextgeneration.com\">dmca@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Advertising</strong> <a href=\"mailto:ads@neonnextgeneration.com\">ads@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "h3",
+     "text": "Billing & Privacy"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Billing &amp; Refunds</strong> <a href=\"mailto:billing@neonnextgeneration.com\">billing@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Privacy &amp; Data Rights</strong> <a href=\"mailto:privacy@neonnextgeneration.com\">privacy@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Careers &amp; HR</strong> <a href=\"mailto:human.resources@neonnextgeneration.com\">human.resources@neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/privacy\">Privacy Policy</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"/legal/fair-use\">Fair Use Policy</a>"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://neonnextgeneration.com\">neonnextgeneration.com</a>"
+    },
+    {
+     "type": "p",
+     "html": "We aim to respond to all enquiries within 5 business days. For privacy-related data rights requests, see our <a href=\"/legal/privacy\">Privacy Policy</a> for jurisdiction-specific response timeframes."
+    }
+   ]
+  }
+ ]
+}
